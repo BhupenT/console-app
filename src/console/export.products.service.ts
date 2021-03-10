@@ -12,36 +12,44 @@ export class ExportProductService {
     this.fetch = new FetchProducts(this.httpService);
   }
 
-  setConfig(config: { [key: string]: any }) {
-    this.config = config;
-  }
-
   async exportProducts() {
-    const readable = new Readable({ objectMode: true });
-
-    // get the initial products
-    const products: {
+    const readableStream = new Readable({ objectMode: true });
+    interface Products {
       [key: string]: any;
-    }[] = await this.fetch.fetchProductsInfo(
-      this.config.productCatalogUrl,
-      'data._embedded.product',
-    );
+    }
+    let sortedProducts: Array<Products>;
+    try {
+      // get the initial products
+      const products: Array<Products> = await this.fetch.fetchProductsInfo(
+        this.config.productCatalogUrl,
+        this.config.targetFields.products,
+      );
 
-    // sort the products
-    const sortedProducts = await this.sortProductsBy(
-      products,
-      this.config.file.sort.byField, // uses the config
-      this.config.file.sort.sortOrder, // uses the config
-    );
+      if (!products || !products.length) {
+        this.showErrorMessage('No products to export', true);
+      }
+      // sort the products
+      sortedProducts = await this.sortProductsBy(
+        products,
+        this.config.file.sort.byField, // uses the config
+        this.config.file.sort.sortOrder, // uses the config
+      );
+    } catch (error) {
+      console.log(error);
+    }
+
+    if (!sortedProducts || !sortedProducts.length) {
+      this.showErrorMessage('No products to export', true);
+    }
 
     // push to the reable stream
     sortedProducts.forEach((product: { [key: string]: any }) => {
-      readable.push(product);
+      readableStream.push(product);
     });
 
-    readable.push(null); // push null to close the stream as its finished
+    readableStream.push(null); // push null to close the stream as its finished
 
-    readable
+    readableStream
       .pipe(this.createTransformStream()) // transform the product
       .pipe(this.createWriteStream(sortedProducts.length)); // finally drain write in the writable stream
   }
@@ -58,28 +66,43 @@ export class ExportProductService {
         data[extractVariables[1]],
       );
 
-      return data.video_count
-        ? {
-            data: {
-              video_previews: await this.fetch.fetchProductsInfo(
-                extraMetaUrl,
-                'data._embedded.videos_url',
-              ),
-            },
-          }
-        : { data: { video_previews: [] } };
+      try {
+        return data.video_count
+          ? {
+              data: {
+                video_previews: await this.fetch.fetchProductsInfo(
+                  extraMetaUrl,
+                  this.config.targetFields.extraMeta,
+                ),
+              },
+            }
+          : { data: { video_previews: [] } };
+      } catch (error) {
+        console.log(error);
+      }
     });
   }
 
   createWriteStream(itemCount: number) {
     return new WriteFileStream(
-      'output.json',
-      'json',
+      this.config.file.name,
+      this.config.file.type,
       { itemCount: itemCount },
       {
         objectMode: true,
       },
     );
+  }
+
+  setConfig(config: { [key: string]: any }) {
+    this.config = config;
+  }
+
+  showErrorMessage(reason: string, stopProcess?: boolean) {
+    console.log(reason);
+    if (stopProcess) {
+      process.exit(1);
+    }
   }
 
   private sortProductsBy(

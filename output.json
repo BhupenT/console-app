@@ -1,6 +1,126 @@
 [
 {
   "video_count": 0,
+  "price": 249,
+  "markdown_price": 249,
+  "special_price": 0,
+  "returnable": true,
+  "final_sale": false,
+  "stock_update": null,
+  "final_price": 249,
+  "sku": "CA862SH17HYO",
+  "name": "Espadrille Slippers",
+  "ribbon": "new",
+  "messaging": {
+    "marketing": [
+      {
+        "type": "new",
+        "short": "New",
+        "medium": "New arrival",
+        "long": "New arrival",
+        "color": "#42ABC8",
+        "url": null
+      }
+    ],
+    "operational": []
+  },
+  "color_name_brand": "Animal Army",
+  "short_description": "In true <b>Camilla</b> style, the statement <b>Espadrille Slippers</b> are designed to enhance your bohemian-inspired resort-ready repertoire. Bejewelled in her signature sparkle, these slip-ons are bound to bring a touch of glamour to any look. \n<br><br>\n- Bejewelled canvas upper<br>\n- Leather lining<br>\n- Multi-coloured<br>\n- Slip-on espadrille ",
+  "shipment_type": "WH",
+  "color_name": "Animal Army",
+  "color_hex": "#7d95cc",
+  "cart_price_rules": null,
+  "attributes": null,
+  "simples": null,
+  "sustainability": null,
+  "link": "espadrille-slippers-1204416.html",
+  "activated_at": "2021-03-10 12:20:27",
+  "return_policy_message": {
+    "message": "This product qualifies for 30 day free returns",
+    "bold_substring": "free returns"
+  },
+  "categories_translated": "Shoes|Flats|Espadrilles|Brogues and Loafers|Loafers",
+  "category_path": null,
+  "category_ids": null,
+  "related_products": null,
+  "image_products": null,
+  "attribute_set_identifier": "SH",
+  "supplier": "Camilla Australia",
+  "wannaby_id": null,
+  "citrus_ad_id": null,
+  "associated_skus": "",
+  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SH&brand=Camilla&gender=female",
+  "related": {
+    "count": 1,
+    "label": null,
+    "visible": true,
+    "message": null
+  },
+  "variants": {
+    "count": 1,
+    "label": null,
+    "visible": true,
+    "message": null
+  },
+  "campaign_details": null,
+  "_embedded": {
+    "brand": {
+      "id": 1862,
+      "name": "Camilla",
+      "url_key": "camilla",
+      "image_url": "http://static.theiconic.com.au/b/camilla.jpg",
+      "banner_url": null,
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/brands/camilla"
+        }
+      }
+    },
+    "gender": {
+      "id": 2,
+      "name": "female",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/genders/female"
+        }
+      }
+    },
+    "shops": [
+      {
+        "is_default": true,
+        "name": "shop",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
+          }
+        }
+      },
+      {
+        "is_default": false,
+        "name": "designer",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/designer"
+          }
+        }
+      }
+    ],
+    "images": [
+      {
+        "url": "http://static.theiconic.com.au/p/camilla-9736-6144021-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/camilla-9736-6144021-1.jpg"
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://eve.theiconic.com.au/catalog/products/CA862SH17HYO"
+    }
+  },
+  "video_previews": []
+},
+{
+  "video_count": 0,
   "price": 220,
   "markdown_price": 220,
   "special_price": 0,
@@ -115,6 +235,126 @@
   "_links": {
     "self": {
       "href": "https://eve.theiconic.com.au/catalog/products/AS119SF44EPB"
+    }
+  },
+  "video_previews": []
+},
+{
+  "video_count": 0,
+  "price": 130,
+  "markdown_price": 130,
+  "special_price": 0,
+  "returnable": true,
+  "final_sale": false,
+  "stock_update": null,
+  "final_price": 130,
+  "sku": "RE485SF66TKJ",
+  "name": "Classic Leather - Unisex",
+  "ribbon": "new",
+  "messaging": {
+    "marketing": [
+      {
+        "type": "new",
+        "short": "New",
+        "medium": "New arrival",
+        "long": "New arrival",
+        "color": "#42ABC8",
+        "url": null
+      }
+    ],
+    "operational": []
+  },
+  "color_name_brand": "White, Vector Navy & Stucco",
+  "short_description": "Founded in 1958, sportswear giant <b>Reebok</b> is renowned around the world for designing and delivering performance footwear and apparel that inspires the wearer to be their absolute best. The brand incorporates the latest technical fabrications and performance technologies to create a range of shoes and apparel for people who treat fitness as a way of life. With an extensive edit of the brand’s signature sneakers, slides and sportswear separates, THE ICONIC is your gateway to the very best <b>Reebok</b> has to offer.\n<br><br>\n- Smoother leather upper; chambray side detailing<br>\n- Lace-up closure<br>\n- Removable sockliner<br>\n- Rubber sole<br>\n- EVA midsole for extra comfort",
+  "shipment_type": "WH",
+  "color_name": "White, Vector Navy & Stucco",
+  "color_hex": "#2c225e",
+  "cart_price_rules": null,
+  "attributes": null,
+  "simples": null,
+  "sustainability": null,
+  "link": "classic-leather-unisex-1190304.html",
+  "activated_at": "2021-03-10 11:42:16",
+  "return_policy_message": {
+    "message": "This product qualifies for 30 day free returns",
+    "bold_substring": "free returns"
+  },
+  "categories_translated": "Shoes|Sneakers|Low-Tops|Lifestyle Shoes|Low Top Sneakers|Lifestyle Sneakers",
+  "category_path": null,
+  "category_ids": null,
+  "related_products": null,
+  "image_products": null,
+  "attribute_set_identifier": "SF",
+  "supplier": "Adidas Australia Pty Ltd",
+  "wannaby_id": null,
+  "citrus_ad_id": null,
+  "associated_skus": "RE485SF66TKJ|RE389SA98ATX|RE389AA75UGE|RE389SE11XFK",
+  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SF&brand=Reebok&gender=unisex",
+  "related": {
+    "count": 0,
+    "label": "Colour",
+    "visible": true,
+    "message": null
+  },
+  "variants": {
+    "count": 0,
+    "label": "Colour",
+    "visible": true,
+    "message": null
+  },
+  "campaign_details": null,
+  "_embedded": {
+    "brand": {
+      "id": 1485,
+      "name": "Reebok",
+      "url_key": "reebok",
+      "image_url": "http://static.theiconic.com.au/b/reebok.jpg",
+      "banner_url": null,
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/brands/reebok"
+        }
+      }
+    },
+    "gender": {
+      "id": 3,
+      "name": "unisex",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/genders/unisex"
+        }
+      }
+    },
+    "shops": [
+      {
+        "is_default": false,
+        "name": "sports",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/sports"
+          }
+        }
+      },
+      {
+        "is_default": true,
+        "name": "shop",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
+          }
+        }
+      }
+    ],
+    "images": [
+      {
+        "url": "http://static.theiconic.com.au/p/reebok-9903-4030911-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/reebok-9903-4030911-1.jpg"
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://eve.theiconic.com.au/catalog/products/RE485SF66TKJ"
     }
   },
   "video_previews": []
@@ -381,190 +621,79 @@
   "video_previews": []
 },
 {
-  "video_count": 0,
-  "price": 95,
-  "markdown_price": 95,
+  "video_count": 1,
+  "price": 129.99,
+  "markdown_price": 129.99,
   "special_price": 0,
   "returnable": true,
   "final_sale": false,
   "stock_update": null,
-  "final_price": 95,
-  "sku": "SL479BT61FXA",
-  "name": "Queen Pillowcase Invisible Zipper Closure",
-  "ribbon": "campaign",
+  "final_price": 129.99,
+  "sku": "RU859SA05XIG",
+  "name": "Legacy Crew Neck Sweater",
+  "ribbon": "new",
   "messaging": {
     "marketing": [
       {
-        "type": "campaign",
-        "short": "25% Off At Checkout",
-        "medium": "25% Off At Checkout",
-        "long": "25% Off At Checkout",
-        "color": "#349C5F",
-        "url": "/all/?campaign=lp-25-off-lingerie-and-sleep"
+        "type": "new",
+        "short": "New",
+        "medium": "New arrival",
+        "long": "New arrival",
+        "color": "#42ABC8",
+        "url": null
       }
     ],
     "operational": []
   },
-  "color_name_brand": "White",
-  "short_description": "<p style=\"margin-bottom:0in;line-height:normal;background:white\">Anti-aging, anti-sleep crease, anti-bedhead, not all silk pillowcases are created equal. The <b>White&nbsp;</b><strong>Queen Pillowcase </strong>from <strong>Slip </strong>is your beauty secret.</p><p style=\"margin-bottom:0in;line-height:normal\">&nbsp;</p><p style=\"margin-bottom:0in;line-height:normal\">- Dimensions: H51cm x L76cm</p><p style=\"margin-bottom:0in;line-height:normal\">- White hue</p><p style=\"margin-bottom:0in;line-height:normal\">- Invisible zipper closure</p><p style=\"margin-bottom:0in;line-height:normal\">- Designed in Australia</p><p style=\"margin-bottom:0in;line-height:normal\">- Long fiber Mulberry silk; 22 momme</p><p style=\"margin-bottom:0in;line-height:normal;background:white\">- Non-toxic dyes</p><p style=\"margin-bottom:0in;line-height:normal;background:white\">&nbsp;</p><p style=\"margin-bottom:0in;line-height:normal\">100% Mulberry Silk</p><p style=\"margin-bottom:0in;line-height:normal\">Machine washable</p>",
-  "shipment_type": "DS",
-  "color_name": "White",
-  "color_hex": "#FFFFFF",
-  "cart_price_rules": [
-    {
-      "url_key": "",
-      "discount": 0,
-      "display_name": "25% Off At Checkout",
-      "start_date": "2021-03-09 06:45:00",
-      "end_date": "2021-03-16 00:05:00",
-      "_locale": "en"
-    }
-  ],
-  "attributes": null,
-  "simples": null,
-  "sustainability": null,
-  "link": "queen-pillowcase-invisible-zipper-closure-1204696.html",
-  "activated_at": "2020-12-04 01:38:45",
-  "return_policy_message": {
-    "message": "This product qualifies for 30 day free returns",
-    "bold_substring": "free returns"
-  },
-  "categories_translated": "Beauty|Wellness|Wellness Essentials|Skincare|Tools|Hair|Hair Tools|Sleep",
-  "category_path": null,
-  "category_ids": null,
-  "related_products": null,
-  "image_products": null,
-  "attribute_set_identifier": "BT",
-  "supplier": "Slip",
-  "wannaby_id": null,
-  "citrus_ad_id": null,
-  "associated_skus": "",
-  "size_guide_url": null,
-  "related": {
-    "count": 11,
-    "label": "Colour",
-    "visible": true,
-    "message": "More colours available"
-  },
-  "variants": {
-    "count": 11,
-    "label": "Colour",
-    "visible": true,
-    "message": "More colours available"
-  },
-  "campaign_details": null,
-  "_embedded": {
-    "brand": {
-      "id": 5479,
-      "name": "Slip",
-      "url_key": "slip",
-      "image_url": null,
-      "banner_url": null,
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/brands/slip"
-        }
-      }
-    },
-    "gender": {
-      "id": 3,
-      "name": "unisex",
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/genders/unisex"
-        }
-      }
-    },
-    "shops": [
-      {
-        "is_default": true,
-        "name": "shop",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
-          }
-        }
-      }
-    ],
-    "images": [
-      {
-        "url": "http://static.theiconic.com.au/p/slip-8629-6964021-1.jpg",
-        "thumbnail": "//static.theiconic.com.au/p/slip-8629-6964021-1.jpg"
-      }
-    ]
-  },
-  "_links": {
-    "self": {
-      "href": "https://eve.theiconic.com.au/catalog/products/SL479BT61FXA"
-    }
-  },
-  "video_previews": []
-},
-{
-  "video_count": 0,
-  "price": 59,
-  "markdown_price": 59,
-  "special_price": 0,
-  "returnable": true,
-  "final_sale": false,
-  "stock_update": null,
-  "final_price": 59,
-  "sku": "NA267BT85RTA",
-  "name": "BBB Cream Beauty-Boosting Balm SPF 30 - Light - Medium",
-  "ribbon": null,
-  "messaging": {
-    "marketing": [],
-    "operational": []
-  },
-  "color_name_brand": "Light to Medium - Neutral",
-  "short_description": "The <b>Napoleon Perdis BBB Cream Beauty-Boosting Balm SPF 30 - Light - Medium </b>is an ultra-light with a dreamy, creamy texture, this hybrid foundation features in-built HD properties to reflect light and brighten and correct the appearance of uneven skin tone.&nbsp;<br /><br />-\tInfused with cruelty-free Snail Mucus to nourish, hydrate and condition your skin<br />-\tGreen Tea Extract provides antioxidant protection<br />-\tNon-greasy Bilberry Seed Oil leave skin feeling soft<br />-\tParaben, Mineral Oil and fragrance free<br />-\tBroad Spectrum SPF 30<br />-\t30mL<br />COVERAGE: Sheer<br /><br />FINISH: Radiant/Dewy <br />UNDERTONES:<br />-\tPorcelain to Light – Neutral<br />-\tLight to Medium – Neutral<br />-\tMedium/Dark – Golden<br />-\tDark to Darker – Golden<br /><br />Active Ingredients: Ethylhexyl Methoxycinnamate (6.69%), Titanium Dioxide (2.37%), Zinc Oxide (18.30%).<br />Inactive Ingredients: Water (Aqua), C12-15 Alkyl Benzoate, Cyclopentasiloxane, Cetyl Peg/Ppg-10/1 Dimethicone, Sorbitol, Mica, Polyglyceryl-4 Isostearate,<br />Talc, Disteardimonium Hectorite, Sodium Chloride, Isononyl Isononanoate, Phenoxyethanol, Polyhydroxystearic Acid, Ppg-25-Laureth-25, Sorbitan<br />Sesquioleate, Sodium Dehydroacetate, Benzyl Alcohol, Dimethicone, Silica, Tocopheryl Acetate, Aluminum Hydroxide, Triethoxycaprylylsilane, Isostearic Acid, Stearic Acid, Persea Gratissima (Avocado) Oil, Disodium Edta, Vaccinium Myrtillus Seed Oil, Glycosaminoglycans, Camellia Sinensis Leaf Extract,<br />Alumina, Aluminum Stearate, Hydrogen Dimethicone, Lysine, Magnesium Chloride, Potassium Chloride, Zinc Chloride. May Contain: Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499).<br /><br /> At THE ICONIC we do our best to provide you with accurate information about product ingredients, based on information provided to us by our Suppliers. For the most complete and up-to-date information, please refer to the product packaging.",
-  "shipment_type": "DS",
-  "color_name": "Light to Medium - Neutral",
-  "color_hex": "#eac7a0",
+  "color_name_brand": "Aster Wash",
+  "short_description": "Fusing functionality with style, <b>Running Bare</b> is designed for the fit and fun-loving woman. Launched in Sydney in 1983, the brand continues to encourage women to live it, love it and rock it in functionally fashionable workout gear. From bright tights to kaleidoscopic crops, <b>Running Bare</b> enables you to look and feel fantastic during every workout.\n<br><br>\nLength: 65cm (size small). Our model is 175.3cm (5’9”) tall with a 78.7cm (31”) bust, a 61.0cm (24”) waist and 88.9cm (35”) hips.\n<br><br>\n- Mid-weight cotton-rich fleece; slight stretch <br>\n- Ribbed crewneck; cuffs and hem <br>\n- Embroidered logo to chest <br>\n- Manufactured in Australia  ",
+  "shipment_type": "WH",
+  "color_name": "Aster Wash",
+  "color_hex": "#812c9e",
   "cart_price_rules": null,
   "attributes": null,
   "simples": null,
   "sustainability": null,
-  "link": "bbb-cream-beauty-boosting-balm-spf-30-light-medium-1123029.html",
-  "activated_at": "2020-10-07 08:48:35",
+  "link": "legacy-crew-neck-sweater-1208705.html",
+  "activated_at": "2021-03-10 14:52:20",
   "return_policy_message": {
     "message": "This product qualifies for 30 day free returns",
     "bold_substring": "free returns"
   },
-  "categories_translated": "Beauty|Make-up|Face|BB and CC cream",
+  "categories_translated": "Clothing|Sweats and Hoodies|Sweats|Crew Necks",
   "category_path": null,
   "category_ids": null,
   "related_products": null,
   "image_products": null,
-  "attribute_set_identifier": "BT",
-  "supplier": "Napoleon Perdis",
+  "attribute_set_identifier": "SA",
+  "supplier": "Running Bare Australia Pty Ltd",
   "wannaby_id": null,
   "citrus_ad_id": null,
-  "associated_skus": "",
-  "size_guide_url": null,
+  "associated_skus": "RU859SA30JNH|RU859SA05XIG|RE389SF01RWG|RH022AC10ZPX|NA623AC02JKJ",
+  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SA&brand=Running+Bare&gender=female",
   "related": {
-    "count": 1,
-    "label": "Shade",
+    "count": 2,
+    "label": "Colour",
     "visible": true,
-    "message": null
+    "message": "More colours available"
   },
   "variants": {
-    "count": 1,
-    "label": "Shade",
+    "count": 2,
+    "label": "Colour",
     "visible": true,
-    "message": null
+    "message": "More colours available"
   },
   "campaign_details": null,
   "_embedded": {
     "brand": {
-      "id": 5267,
-      "name": "Napoleon Perdis",
-      "url_key": "napoleon-perdis",
-      "image_url": null,
+      "id": 859,
+      "name": "Running Bare",
+      "url_key": "running-bare",
+      "image_url": "http://static.theiconic.com.au/b/running-bare.jpg",
       "banner_url": null,
       "_links": {
         "self": {
-          "href": "https://eve.theiconic.com.au/catalog/brands/napoleon-perdis"
+          "href": "https://eve.theiconic.com.au/catalog/brands/running-bare"
         }
       }
     },
@@ -579,6 +708,15 @@
     },
     "shops": [
       {
+        "is_default": false,
+        "name": "sports",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/sports"
+          }
+        }
+      },
+      {
         "is_default": true,
         "name": "shop",
         "_links": {
@@ -590,17 +728,26 @@
     ],
     "images": [
       {
-        "url": "http://static.theiconic.com.au/p/napoleon-perdis-0910-9203211-1.jpg",
-        "thumbnail": "//static.theiconic.com.au/p/napoleon-perdis-0910-9203211-1.jpg"
+        "url": "http://static.theiconic.com.au/p/running-bare-9098-5078021-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/running-bare-9098-5078021-1.jpg"
       }
     ]
   },
   "_links": {
     "self": {
-      "href": "https://eve.theiconic.com.au/catalog/products/NA267BT85RTA"
+      "href": "https://eve.theiconic.com.au/catalog/products/RU859SA05XIG"
     }
   },
-  "video_previews": []
+  "video_previews": [
+    {
+      "url": "https://vod-progressive.akamaized.net/exp=1615419474~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696676%2F2437185417.mp4~hmac=0d284769079e20dfb9fcc7eaab39b727fa7d32cfea1dfbc5b77427912c650c19/vimeo-prod-skyfire-std-us/01/4339/20/521696676/2437185417.mp4",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/products/RU859SA05XIG/videos"
+        }
+      }
+    }
+  ]
 },
 {
   "video_count": 1,
@@ -722,7 +869,7 @@
   },
   "video_previews": [
     {
-      "url": "https://vod-progressive.akamaized.net/exp=1615393496~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696491%2F2437162911.mp4~hmac=2e785968f0058a98c8eafb1fcbff8845584e7dc85d2d7ab37bd77d49f09b2660/vimeo-prod-skyfire-std-us/01/4339/20/521696491/2437162911.mp4",
+      "url": "https://vod-progressive.akamaized.net/exp=1615419475~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696491%2F2437162911.mp4~hmac=5ed4321f86036328095fb26a338a3f2546f8a064249989da161bf9577c3933fb/vimeo-prod-skyfire-std-us/01/4339/20/521696491/2437162911.mp4",
       "_links": {
         "self": {
           "href": "https://eve.theiconic.com.au/catalog/products/NI126SA24NQD/videos"
@@ -733,15 +880,15 @@
 },
 {
   "video_count": 1,
-  "price": 65,
-  "markdown_price": 65,
+  "price": 129.99,
+  "markdown_price": 129.99,
   "special_price": 0,
   "returnable": true,
   "final_sale": false,
   "stock_update": null,
-  "final_price": 65,
-  "sku": "NI126SA54AMR",
-  "name": "The Nike Yoga Luxe Tank",
+  "final_price": 129.99,
+  "sku": "RU859SA92WJZ",
+  "name": "Ab Tastic Studio Full Length Tights",
   "ribbon": "new",
   "messaging": {
     "marketing": [
@@ -756,22 +903,151 @@
     ],
     "operational": []
   },
-  "color_name_brand": "Black & Dark Smoke Grey",
-  "short_description": "American sportswear giant <b>Nike</b> has established an inimitable reputation for performance and innovation. Combining a technical understanding of an athlete’s needs with a strong eye for style, <b>Nike</b> has become the go-to for professional and amateur athletes alike. \n<br><br>\nLength: 58cm (size small). Our model is 175.3cm (5’9”) tall with a 78.7cm (31”) bust, a 61.0cm (24”) waist and 88.9cm (35”) hips.\n<br><br>\n- Nike Infinalon performance fabric; stretch <br>\n- Dri-FIT moisture-wicking technology <br>\n- Built-in shelf bra; no padding <br>\n- Fixed straps ",
+  "color_name_brand": "Scar Major",
+  "short_description": "Fusing functionality with style, <b>Running Bare</b> is designed for the fit and fun-loving woman. Launched in Sydney in 1983, the brand continues to encourage women to live it, love it and rock it in functionally fashionable workout gear. From bright tights to kaleidoscopic crops, <b>Running Bare</b> enables you to look and feel fantastic during every workout.\n<br><br>\nLength: Inside Leg: 70cm. Rise: 31cm. Leg Opening: 20cm (size AU 8). Our model is 175.3cm (5’9”) tall with a 78.7cm (31”) bust, a 61.0cm (24”) waist and 88.9cm (35”) hips.\n<br><br>\n- Moisture-wicking performance fabric; two-way stretch <br>\n- Ultra high-rise waistband <br>\n- Seamless outer leg <br>\n- Manufactured in Australia ",
   "shipment_type": "WH",
-  "color_name": "Black & Dark Smoke Grey",
+  "color_name": "Scar Major",
+  "color_hex": "#3e4a27",
+  "cart_price_rules": null,
+  "attributes": null,
+  "simples": null,
+  "sustainability": null,
+  "link": "ab-tastic-studio-full-length-tights-1208690.html",
+  "activated_at": "2021-03-10 12:30:21",
+  "return_policy_message": {
+    "message": "This product qualifies for 30 day free returns",
+    "bold_substring": "free returns"
+  },
+  "categories_translated": "Clothing|Tights|Sports Tights|Full Tights",
+  "category_path": null,
+  "category_ids": null,
+  "related_products": null,
+  "image_products": null,
+  "attribute_set_identifier": "SA",
+  "supplier": "Running Bare Australia Pty Ltd",
+  "wannaby_id": null,
+  "citrus_ad_id": null,
+  "associated_skus": "RU859SA92WJZ|NE520SH58NJX|RU859SA15DNG|RU859SE44KFZ|RU859SE53YDU|RU859SE16GFJ",
+  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SA&brand=Running+Bare&gender=female",
+  "related": {
+    "count": 2,
+    "label": "Colour",
+    "visible": true,
+    "message": "More colours available"
+  },
+  "variants": {
+    "count": 2,
+    "label": "Colour",
+    "visible": true,
+    "message": "More colours available"
+  },
+  "campaign_details": null,
+  "_embedded": {
+    "brand": {
+      "id": 859,
+      "name": "Running Bare",
+      "url_key": "running-bare",
+      "image_url": "http://static.theiconic.com.au/b/running-bare.jpg",
+      "banner_url": null,
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/brands/running-bare"
+        }
+      }
+    },
+    "gender": {
+      "id": 2,
+      "name": "female",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/genders/female"
+        }
+      }
+    },
+    "shops": [
+      {
+        "is_default": false,
+        "name": "sports",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/sports"
+          }
+        }
+      },
+      {
+        "is_default": true,
+        "name": "shop",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
+          }
+        }
+      }
+    ],
+    "images": [
+      {
+        "url": "http://static.theiconic.com.au/p/running-bare-9213-0968021-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/running-bare-9213-0968021-1.jpg"
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://eve.theiconic.com.au/catalog/products/RU859SA92WJZ"
+    }
+  },
+  "video_previews": [
+    {
+      "url": "https://vod-progressive.akamaized.net/exp=1615419476~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521697046%2F2437166652.mp4~hmac=adc2f16f38a4599732cbb3d661e25c1f9d0ecb99560e35a4704509ba2f1977a6/vimeo-prod-skyfire-std-us/01/4339/20/521697046/2437166652.mp4",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/products/RU859SA92WJZ/videos"
+        }
+      }
+    }
+  ]
+},
+{
+  "video_count": 1,
+  "price": 70,
+  "markdown_price": 70,
+  "special_price": 0,
+  "returnable": true,
+  "final_sale": false,
+  "stock_update": null,
+  "final_price": 70,
+  "sku": "NI126SA62LQZ",
+  "name": "Swoosh Run Half-Zip Mid-Layer Top",
+  "ribbon": "new",
+  "messaging": {
+    "marketing": [
+      {
+        "type": "new",
+        "short": "New",
+        "medium": "New arrival",
+        "long": "New arrival",
+        "color": "#42ABC8",
+        "url": null
+      }
+    ],
+    "operational": []
+  },
+  "color_name_brand": "Black & White",
+  "short_description": "American sportswear giant <b>Nike</b> has established an inimitable reputation for performance and innovation. Combining a technical understanding of an athlete’s needs with a strong eye for style, <b>Nike</b> has become the go-to for professional and amateur athletes alike. \n<br><br>\nLength: 66cm (size small). Our model is 175.3cm (5’9”) tall with a 78.7cm (31”) bust, a 61.0cm (24”) waist and 88.9cm (35”) hips.\n<br><br>\n- Nike DRY performance fabric; generous stretch <br>\n- Dri-FIT moisture-wicking technology <br>\n- Half-zip placket <br>\n- Long sleeves <br>\n- Reflective elements to back for optimal visibility in lowlight conditions ",
+  "shipment_type": "WH",
+  "color_name": "Black & White",
   "color_hex": "#000000",
   "cart_price_rules": null,
   "attributes": null,
   "simples": null,
   "sustainability": null,
-  "link": "the-nike-yoga-luxe-tank-1108896.html",
+  "link": "swoosh-run-half-zip-mid-layer-top-1108922.html",
   "activated_at": "2021-03-10 11:04:18",
   "return_policy_message": {
     "message": "This product qualifies for 30 day free returns",
     "bold_substring": "free returns"
   },
-  "categories_translated": "Clothing|T-Shirts and Singlets|Muscle Tops",
+  "categories_translated": "Clothing|T-Shirts and Singlets|Long Sleeve T-Shirts",
   "category_path": null,
   "category_ids": null,
   "related_products": null,
@@ -839,22 +1115,22 @@
     ],
     "images": [
       {
-        "url": "http://static.theiconic.com.au/p/nike-8972-6988011-1.jpg",
-        "thumbnail": "//static.theiconic.com.au/p/nike-8972-6988011-1.jpg"
+        "url": "http://static.theiconic.com.au/p/nike-8999-2298011-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/nike-8999-2298011-1.jpg"
       }
     ]
   },
   "_links": {
     "self": {
-      "href": "https://eve.theiconic.com.au/catalog/products/NI126SA54AMR"
+      "href": "https://eve.theiconic.com.au/catalog/products/NI126SA62LQZ"
     }
   },
   "video_previews": [
     {
-      "url": "https://vod-progressive.akamaized.net/exp=1615393497~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696521%2F2437163147.mp4~hmac=318912b49b0dbd1cd65196f090dff54332253fd04875e835298259f560ffd007/vimeo-prod-skyfire-std-us/01/4339/20/521696521/2437163147.mp4",
+      "url": "https://vod-progressive.akamaized.net/exp=1615419476~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696551%2F2437183951.mp4~hmac=09b410ded3ffb6a71d2ba368e127d75ec83093ecf2b7c5897080013b2724a5d4/vimeo-prod-skyfire-std-us/01/4339/20/521696551/2437183951.mp4",
       "_links": {
         "self": {
-          "href": "https://eve.theiconic.com.au/catalog/products/NI126SA54AMR/videos"
+          "href": "https://eve.theiconic.com.au/catalog/products/NI126SA62LQZ/videos"
         }
       }
     }
@@ -980,271 +1256,10 @@
   },
   "video_previews": [
     {
-      "url": "https://vod-progressive.akamaized.net/exp=1615393498~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4255%2F20%2F521278751%2F2433986435.mp4~hmac=40af9fdae310665973eca670702f215aefcba991d49b27b08485b8986defeeb3/vimeo-prod-skyfire-std-us/01/4255/20/521278751/2433986435.mp4",
+      "url": "https://vod-progressive.akamaized.net/exp=1615419477~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4255%2F20%2F521278751%2F2433986435.mp4~hmac=b6e0466a0fa95c0e9beebbc3fc7001573692dac5f3416cf3845428a846002a2d/vimeo-prod-skyfire-std-us/01/4255/20/521278751/2433986435.mp4",
       "_links": {
         "self": {
           "href": "https://eve.theiconic.com.au/catalog/products/PE745AA92PTF/videos"
-        }
-      }
-    }
-  ]
-},
-{
-  "video_count": 1,
-  "price": 119.99,
-  "markdown_price": 119.99,
-  "special_price": 0,
-  "returnable": true,
-  "final_sale": false,
-  "stock_update": null,
-  "final_price": 119.99,
-  "sku": "RU859SA84KCH",
-  "name": "Ab Tastic Studio Full Length Tights",
-  "ribbon": "new",
-  "messaging": {
-    "marketing": [
-      {
-        "type": "new",
-        "short": "New",
-        "medium": "New arrival",
-        "long": "New arrival",
-        "color": "#42ABC8",
-        "url": null
-      }
-    ],
-    "operational": []
-  },
-  "color_name_brand": "Black Marle",
-  "short_description": "Fusing functionality with style, <b>Running Bare</b> is designed for the fit and fun-loving woman. Launched in Sydney in 1983, the brand continues to encourage women to live it, love it and rock it in functionally fashionable workout gear. From bright tights to kaleidoscopic crops, <b>Running Bare</b> enables you to look and feel fantastic during every workout.\n<br><br>\nLength: Inside Leg: 70cm. Rise: 31cm. Leg Opening: 20cm (size AU 8). Our model is 175.3cm (5’9”) tall with a 78.7cm (31”) bust, a 61.0cm (24”) waist and 88.9cm (35”) hips.\n<br><br>\n- Moisture-wicking performance fabric; two-way stretch <br>\n- Ultra high-rise waistband <br>\n- Seamless outer leg <br>\n- Manufactured in Australia ",
-  "shipment_type": "WH",
-  "color_name": "Black Marle",
-  "color_hex": "#000000",
-  "cart_price_rules": null,
-  "attributes": null,
-  "simples": null,
-  "sustainability": null,
-  "link": "ab-tastic-studio-full-length-tights-1208710.html",
-  "activated_at": "2021-03-10 12:30:21",
-  "return_policy_message": {
-    "message": "This product qualifies for 30 day free returns",
-    "bold_substring": "free returns"
-  },
-  "categories_translated": "Clothing|Tights|Sports Tights|Full Tights",
-  "category_path": null,
-  "category_ids": null,
-  "related_products": null,
-  "image_products": null,
-  "attribute_set_identifier": "SA",
-  "supplier": "Running Bare Australia Pty Ltd",
-  "wannaby_id": null,
-  "citrus_ad_id": null,
-  "associated_skus": "RU859SA44NQH|RU859SA84KCH|NE838SF16JOX|RU859SE44TUX|RU859SE81CWK",
-  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SA&brand=Running+Bare&gender=female",
-  "related": {
-    "count": 2,
-    "label": "Colour",
-    "visible": true,
-    "message": "More colours available"
-  },
-  "variants": {
-    "count": 2,
-    "label": "Colour",
-    "visible": true,
-    "message": "More colours available"
-  },
-  "campaign_details": null,
-  "_embedded": {
-    "brand": {
-      "id": 859,
-      "name": "Running Bare",
-      "url_key": "running-bare",
-      "image_url": "http://static.theiconic.com.au/b/running-bare.jpg",
-      "banner_url": null,
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/brands/running-bare"
-        }
-      }
-    },
-    "gender": {
-      "id": 2,
-      "name": "female",
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/genders/female"
-        }
-      }
-    },
-    "shops": [
-      {
-        "is_default": false,
-        "name": "sports",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/sports"
-          }
-        }
-      },
-      {
-        "is_default": true,
-        "name": "shop",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
-          }
-        }
-      }
-    ],
-    "images": [
-      {
-        "url": "http://static.theiconic.com.au/p/running-bare-3793-0178021-1.jpg",
-        "thumbnail": "//static.theiconic.com.au/p/running-bare-3793-0178021-1.jpg"
-      }
-    ]
-  },
-  "_links": {
-    "self": {
-      "href": "https://eve.theiconic.com.au/catalog/products/RU859SA84KCH"
-    }
-  },
-  "video_previews": [
-    {
-      "url": "https://vod-progressive.akamaized.net/exp=1615393498~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696764%2F2437164858.mp4~hmac=9b7d7938ac7d60ebe1847e313089f3e5c4a537acf76fc52df9e0322a1c16dacb/vimeo-prod-skyfire-std-us/01/4339/20/521696764/2437164858.mp4",
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/products/RU859SA84KCH/videos"
-        }
-      }
-    }
-  ]
-},
-{
-  "video_count": 1,
-  "price": 140,
-  "markdown_price": 140,
-  "special_price": 0,
-  "returnable": true,
-  "final_sale": false,
-  "stock_update": null,
-  "final_price": 140,
-  "sku": "AS787AA26HGJ",
-  "name": "Olivia Linen Dress",
-  "ribbon": "new",
-  "messaging": {
-    "marketing": [
-      {
-        "type": "new",
-        "short": "New",
-        "medium": "New arrival",
-        "long": "New arrival",
-        "color": "#42ABC8",
-        "url": null
-      }
-    ],
-    "operational": []
-  },
-  "color_name_brand": "Black",
-  "short_description": "<b>Assembly Label</b> designs and delivers simplified, well-made apparel and accessories for an audience who craves a relaxed coastal lifestyle. From perennial jersey basics to easy linen separates, shirting and leather goods, <b>Assembly Label</b>’s curated range has styles that will quickly become the cornerstone of any wardrobe.<br><br>Length: 115cm (size AU 8). Our model is 171.5cm (5’7.5”) tall with a 83.8cm (33”) bust, a 62.2cm (24.5”) waist and 99.1cm (39”) hips.<br><br>- Pure linen batiste; non-stretch; unlined; slight sheerness under light<br>- Relaxed fit; adjustable drawcord waist<br>- Side pockets",
-  "shipment_type": "WH",
-  "color_name": "Black",
-  "color_hex": "#000000",
-  "cart_price_rules": null,
-  "attributes": null,
-  "simples": null,
-  "sustainability": {
-    "title": "This item is part of our Considered Edit",
-    "items": [
-      "Made using linen"
-    ],
-    "groups": [
-      {
-        "name": "Sustainable Materials",
-        "description": "Product made of materials with a lower environmental impact than conventional alternatives",
-        "icon": "https://s3-ap-southeast-2.amazonaws.com/mediaonsite.theiconic.com.au/sustainability/Attributes-Icons-_Materials.png"
-      }
-    ]
-  },
-  "link": "olivia-linen-dress-1200611.html",
-  "activated_at": "2021-03-09 11:55:19",
-  "return_policy_message": {
-    "message": "This product qualifies for 30 day free returns",
-    "bold_substring": "free returns"
-  },
-  "categories_translated": "Clothing|Dresses|Midi Dresses|T-Shirt Dresses|Sun Dresses",
-  "category_path": null,
-  "category_ids": null,
-  "related_products": null,
-  "image_products": null,
-  "attribute_set_identifier": "AA",
-  "supplier": "Modern Standard",
-  "wannaby_id": null,
-  "citrus_ad_id": null,
-  "associated_skus": "AS787AA26HGJ|AE897SH97YXM|ST134AC99AOI|PE002AC45WOG|KU524AC25UBA",
-  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=AA&brand=Assembly+Label&gender=female",
-  "related": {
-    "count": 0,
-    "label": "Colour",
-    "visible": true,
-    "message": null
-  },
-  "variants": {
-    "count": 0,
-    "label": "Colour",
-    "visible": true,
-    "message": null
-  },
-  "campaign_details": null,
-  "_embedded": {
-    "brand": {
-      "id": 787,
-      "name": "Assembly Label",
-      "url_key": "assembly",
-      "image_url": "http://static.theiconic.com.au/b/assembly.jpg",
-      "banner_url": null,
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/brands/assembly"
-        }
-      }
-    },
-    "gender": {
-      "id": 2,
-      "name": "female",
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/genders/female"
-        }
-      }
-    },
-    "shops": [
-      {
-        "is_default": true,
-        "name": "shop",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
-          }
-        }
-      }
-    ],
-    "images": [
-      {
-        "url": "http://static.theiconic.com.au/p/assembly-6037-1160021-1.jpg",
-        "thumbnail": "//static.theiconic.com.au/p/assembly-6037-1160021-1.jpg"
-      }
-    ]
-  },
-  "_links": {
-    "self": {
-      "href": "https://eve.theiconic.com.au/catalog/products/AS787AA26HGJ"
-    }
-  },
-  "video_previews": [
-    {
-      "url": "https://vod-progressive.akamaized.net/exp=1615393499~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4255%2F20%2F521275940%2F2433969428.mp4~hmac=7b60e02671557204c31e1a4406d24d1e05c2b55129676ceee800f9451ff61f99/vimeo-prod-skyfire-std-us/01/4255/20/521275940/2433969428.mp4",
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/products/AS787AA26HGJ/videos"
         }
       }
     }
