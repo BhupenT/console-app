@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "eslint.format.enable": true,
+    "eslint.packageManager": "yarn",
+    "prettier.jsxSingleQuote": true,
+    "prettier.packageManager": "yarn",
+    "prettier.prettierPath": ".",
+    "eslint.lintTask.enable": true
+}

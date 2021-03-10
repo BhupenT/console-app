@@ -1,5 +1,5 @@
 export type Product = {
-    name: string
-}
+  name: string;
+};
 
-export type Products = Product[]
+export type Products = Product[];
