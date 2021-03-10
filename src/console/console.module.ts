@@ -1,5 +1,5 @@
 import { HttpModule, Module } from '@nestjs/common';
-import { MyConsoleService } from './console.service';
+import { ExportProductService } from './export.products.service';
 import { ConsoleController } from './console.controller';
 import { EventEmitterModule } from '@nestjs/event-emitter';
 
@@ -13,7 +13,7 @@ import { EventEmitterModule } from '@nestjs/event-emitter';
     }),
     EventEmitterModule.forRoot(),
   ],
-  providers: [MyConsoleService],
+  providers: [ExportProductService],
   controllers: [ConsoleController],
 })
 export class MyConsoleModule {}

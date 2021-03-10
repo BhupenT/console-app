@@ -5,7 +5,7 @@ import { TransformData } from './lib/TransformDataStream';
 import { WriteFileStream } from './lib/WriteFileStream';
 
 @Injectable()
-export class MyConsoleService {
+export class ExportProductService {
   private fetch: FetchProducts;
   private transform: any;
   constructor(private httpService: HttpService) {

@@ -1,16 +1,16 @@
 import { Controller } from '@nestjs/common';
-import { MyConsoleService } from './console.service';
+import { ExportProductService } from './export.products.service';
 
 @Controller('console')
 export class ConsoleController {
-  constructor(private readonly myConsoleService: MyConsoleService) {}
+  constructor(private readonly ExportProductServices: ExportProductService) {}
 
   async initOptions(command: string) {
-    const consoleService = this.myConsoleService;
+    const exportProductService = this.ExportProductServices;
     switch (command) {
       case 'export-products':
         console.log('generating products');
-        await consoleService.exportProducts();
+        await exportProductService.exportProducts();
         break;
 
       default:

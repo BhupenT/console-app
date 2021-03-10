@@ -1,6 +1,138 @@
 [
 {
   "video_count": 1,
+  "price": 140,
+  "markdown_price": 140,
+  "special_price": 0,
+  "returnable": true,
+  "final_sale": false,
+  "stock_update": null,
+  "final_price": 140,
+  "sku": "AS787AA26HGJ",
+  "name": "Olivia Linen Dress",
+  "ribbon": "new",
+  "messaging": {
+    "marketing": [
+      {
+        "type": "new",
+        "short": "New",
+        "medium": "New arrival",
+        "long": "New arrival",
+        "color": "#42ABC8",
+        "url": null
+      }
+    ],
+    "operational": []
+  },
+  "color_name_brand": "Black",
+  "short_description": "<b>Assembly Label</b> designs and delivers simplified, well-made apparel and accessories for an audience who craves a relaxed coastal lifestyle. From perennial jersey basics to easy linen separates, shirting and leather goods, <b>Assembly Label</b>’s curated range has styles that will quickly become the cornerstone of any wardrobe.<br><br>Length: 115cm (size AU 8). Our model is 171.5cm (5’7.5”) tall with a 83.8cm (33”) bust, a 62.2cm (24.5”) waist and 99.1cm (39”) hips.<br><br>- Pure linen batiste; non-stretch; unlined; slight sheerness under light<br>- Relaxed fit; adjustable drawcord waist<br>- Side pockets",
+  "shipment_type": "WH",
+  "color_name": "Black",
+  "color_hex": "#000000",
+  "cart_price_rules": null,
+  "attributes": null,
+  "simples": null,
+  "sustainability": {
+    "title": "This item is part of our Considered Edit",
+    "items": [
+      "Made using linen"
+    ],
+    "groups": [
+      {
+        "name": "Sustainable Materials",
+        "description": "Product made of materials with a lower environmental impact than conventional alternatives",
+        "icon": "https://s3-ap-southeast-2.amazonaws.com/mediaonsite.theiconic.com.au/sustainability/Attributes-Icons-_Materials.png"
+      }
+    ]
+  },
+  "link": "olivia-linen-dress-1200611.html",
+  "activated_at": "2021-03-09 11:55:19",
+  "return_policy_message": {
+    "message": "This product qualifies for 30 day free returns",
+    "bold_substring": "free returns"
+  },
+  "categories_translated": "Clothing|Dresses|Midi Dresses|T-Shirt Dresses|Sun Dresses",
+  "category_path": null,
+  "category_ids": null,
+  "related_products": null,
+  "image_products": null,
+  "attribute_set_identifier": "AA",
+  "supplier": "Modern Standard",
+  "wannaby_id": null,
+  "citrus_ad_id": null,
+  "associated_skus": "AS787AA26HGJ|AE897SH97YXM|ST134AC99AOI|PE002AC45WOG|KU524AC25UBA",
+  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=AA&brand=Assembly+Label&gender=female",
+  "related": {
+    "count": 0,
+    "label": "Colour",
+    "visible": true,
+    "message": null
+  },
+  "variants": {
+    "count": 0,
+    "label": "Colour",
+    "visible": true,
+    "message": null
+  },
+  "campaign_details": null,
+  "_embedded": {
+    "brand": {
+      "id": 787,
+      "name": "Assembly Label",
+      "url_key": "assembly",
+      "image_url": "http://static.theiconic.com.au/b/assembly.jpg",
+      "banner_url": null,
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/brands/assembly"
+        }
+      }
+    },
+    "gender": {
+      "id": 2,
+      "name": "female",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/genders/female"
+        }
+      }
+    },
+    "shops": [
+      {
+        "is_default": true,
+        "name": "shop",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
+          }
+        }
+      }
+    ],
+    "images": [
+      {
+        "url": "http://static.theiconic.com.au/p/assembly-6037-1160021-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/assembly-6037-1160021-1.jpg"
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://eve.theiconic.com.au/catalog/products/AS787AA26HGJ"
+    }
+  },
+  "video_previews": [
+    {
+      "url": "https://vod-progressive.akamaized.net/exp=1615384370~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4255%2F20%2F521275940%2F2433969428.mp4~hmac=5a42983f23621a8b890c8f7f15aa827b80fe6d0641b31a57b57c89c3a79e4644/vimeo-prod-skyfire-std-us/01/4255/20/521275940/2433969428.mp4",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/products/AS787AA26HGJ/videos"
+        }
+      }
+    }
+  ]
+},
+{
+  "video_count": 1,
   "price": 119.99,
   "markdown_price": 119.99,
   "special_price": 0,
@@ -119,7 +251,7 @@
   },
   "video_previews": [
     {
-      "url": "https://vod-progressive.akamaized.net/exp=1615382664~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696764%2F2437164858.mp4~hmac=49c68698a477bffe347b48dd0510b863daf85d250a0d75c5c270b9c9e865c01b/vimeo-prod-skyfire-std-us/01/4339/20/521696764/2437164858.mp4",
+      "url": "https://vod-progressive.akamaized.net/exp=1615384370~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696764%2F2437164858.mp4~hmac=97c9e25d252a72f292d654c3bb0fe8b3d72bbb09b5bb39b5cac6b0091c432c84/vimeo-prod-skyfire-std-us/01/4339/20/521696764/2437164858.mp4",
       "_links": {
         "self": {
           "href": "https://eve.theiconic.com.au/catalog/products/RU859SA84KCH/videos"
@@ -248,7 +380,7 @@
   },
   "video_previews": [
     {
-      "url": "https://vod-progressive.akamaized.net/exp=1615382665~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4255%2F20%2F521278751%2F2433986435.mp4~hmac=f93bf49f9905b3d3fa80623349a85f3ddb2bcd68cee76d28b1e6b2add0c6c4e0/vimeo-prod-skyfire-std-us/01/4255/20/521278751/2433986435.mp4",
+      "url": "https://vod-progressive.akamaized.net/exp=1615384371~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4255%2F20%2F521278751%2F2433986435.mp4~hmac=88cd6f492609022c9220d855710ddefa897e3d49aa534c0a45cc16dee5feeff5/vimeo-prod-skyfire-std-us/01/4255/20/521278751/2433986435.mp4",
       "_links": {
         "self": {
           "href": "https://eve.theiconic.com.au/catalog/products/PE745AA92PTF/videos"
@@ -377,7 +509,7 @@
   },
   "video_previews": [
     {
-      "url": "https://vod-progressive.akamaized.net/exp=1615382665~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696521%2F2437163147.mp4~hmac=df30018804d4066374a6c02a8e9c33aa373977b1920d8b765ed494329792b834/vimeo-prod-skyfire-std-us/01/4339/20/521696521/2437163147.mp4",
+      "url": "https://vod-progressive.akamaized.net/exp=1615384371~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696521%2F2437163147.mp4~hmac=61d0e64dffdfd006777b47f8f491a514883c61d5a2e649258cda639ed296ed11/vimeo-prod-skyfire-std-us/01/4339/20/521696521/2437163147.mp4",
       "_links": {
         "self": {
           "href": "https://eve.theiconic.com.au/catalog/products/NI126SA54AMR/videos"
@@ -506,7 +638,7 @@
   },
   "video_previews": [
     {
-      "url": "https://vod-progressive.akamaized.net/exp=1615382666~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696491%2F2437162911.mp4~hmac=099b5bad8b4c25b0ea0266c43ff4f06e04426b782ba4eaaa7cfb9da1b84373db/vimeo-prod-skyfire-std-us/01/4339/20/521696491/2437162911.mp4",
+      "url": "https://vod-progressive.akamaized.net/exp=1615384372~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696491%2F2437162911.mp4~hmac=7a7f2daee0b8cbf5466c701269ec1e83da932dd7dade812e68fffb021ceb43a4/vimeo-prod-skyfire-std-us/01/4339/20/521696491/2437162911.mp4",
       "_links": {
         "self": {
           "href": "https://eve.theiconic.com.au/catalog/products/NI126SA24NQD/videos"
@@ -514,6 +646,126 @@
       }
     }
   ]
+},
+{
+  "video_count": 0,
+  "price": 70,
+  "markdown_price": 70,
+  "special_price": 0,
+  "returnable": true,
+  "final_sale": false,
+  "stock_update": null,
+  "final_price": 70,
+  "sku": "NI126SA10ICR",
+  "name": "Swoosh Run 7/8 Tights",
+  "ribbon": "new",
+  "messaging": {
+    "marketing": [
+      {
+        "type": "new",
+        "short": "New",
+        "medium": "New arrival",
+        "long": "New arrival",
+        "color": "#42ABC8",
+        "url": null
+      }
+    ],
+    "operational": []
+  },
+  "color_name_brand": "Black & Reflective Silver",
+  "short_description": "American sportswear giant <b>Nike</b> has established an inimitable reputation for performance and innovation. Combining a technical understanding of an athlete’s needs with a strong eye for style, <b>Nike</b> has become the go-to for professional and amateur athletes alike. With a roster that spans apparel, shoes and accessories suitable for any and every athletic pursuit, <b>Nike</b> has positioned themselves as a leader in their field with an extensive range that encompasses every aspect of a healthy lifestyle. From performance footwear to printed tights to moisture wicking running shorts, their extensive range of athletic products is designed to help keep you at the top of your game.<br><br>Length: Inside Leg: 87cm; Front Rise: 30cm; Leg Opening: 21cm (size small). Our model is wearing size small tights. She is 175.3cm (5’9”) tall with an 83.8cm (33”) bust, a 66.0cm (26”) waist and 91.4cm (36”) hips.\n<br><br>\n- Performance stretch fabric with sweat-wicking support<br>\n- 7/8 length; high-waisted<br>\n- Silicon Swoosh designs to left leg<br>\n- Hidden pocket to rear<br>",
+  "shipment_type": "WH",
+  "color_name": "Black & Reflective Silver",
+  "color_hex": "#000000",
+  "cart_price_rules": null,
+  "attributes": null,
+  "simples": null,
+  "sustainability": null,
+  "link": "swoosh-run-7-8-tights-1108930.html",
+  "activated_at": "2021-03-09 10:34:14",
+  "return_policy_message": {
+    "message": "This product qualifies for 30 day free returns",
+    "bold_substring": "free returns"
+  },
+  "categories_translated": "Clothing|Tights|Sports Tights|78 Tights",
+  "category_path": null,
+  "category_ids": null,
+  "related_products": null,
+  "image_products": null,
+  "attribute_set_identifier": "SA",
+  "supplier": "NIKE AUSTRALIA PTY LTD",
+  "wannaby_id": null,
+  "citrus_ad_id": null,
+  "associated_skus": "NI126SA97HLI|NI126SA10ICR|NI126SH73RNU|NI126SE19HVW|NI126SE88YGD",
+  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SA&brand=Nike&gender=female",
+  "related": {
+    "count": 1,
+    "label": "Colour",
+    "visible": true,
+    "message": null
+  },
+  "variants": {
+    "count": 1,
+    "label": "Colour",
+    "visible": true,
+    "message": null
+  },
+  "campaign_details": null,
+  "_embedded": {
+    "brand": {
+      "id": 126,
+      "name": "Nike",
+      "url_key": "nike",
+      "image_url": "http://static.theiconic.com.au/b/nike.jpg",
+      "banner_url": null,
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/brands/nike"
+        }
+      }
+    },
+    "gender": {
+      "id": 2,
+      "name": "female",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/genders/female"
+        }
+      }
+    },
+    "shops": [
+      {
+        "is_default": false,
+        "name": "sports",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/sports"
+          }
+        }
+      },
+      {
+        "is_default": true,
+        "name": "shop",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
+          }
+        }
+      }
+    ],
+    "images": [
+      {
+        "url": "http://static.theiconic.com.au/p/nike-0940-0398011-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/nike-0940-0398011-1.jpg"
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://eve.theiconic.com.au/catalog/products/NI126SA10ICR"
+    }
+  },
+  "video_previews": []
 },
 {
   "video_count": 0,
@@ -631,265 +883,6 @@
   "_links": {
     "self": {
       "href": "https://eve.theiconic.com.au/catalog/products/SL479BT61FXA"
-    }
-  },
-  "video_previews": []
-},
-{
-  "video_count": 0,
-  "price": 40,
-  "markdown_price": 40,
-  "special_price": 0,
-  "returnable": true,
-  "final_sale": false,
-  "stock_update": null,
-  "final_price": 40,
-  "sku": "AE208BT38HVH",
-  "name": "Resurrection Aromatique Hand Wash  500ml",
-  "ribbon": null,
-  "messaging": {
-    "marketing": [],
-    "operational": []
-  },
-  "color_name_brand": "N/A",
-  "short_description": "Aesop's Resurrection Aromatique Hand Wash 500ml is a gentle formulation containing oils of Orange, Rosemary and Lavender to effectively cleanse the hands without drying them out.<br><br>- Aroma: Citrus,woody, herbaceous&nbsp;<br>- Key Ingredients: Mandarin Rind, Rosemary Leaf, Cedar Atlas<br>- Dispense into damp hands, lather, then rinse thoroughly.\n<br>- Manufactured in Australia<br><br>Ingredients:<br>Water (Aqua), Sodium Laureth Sulfate, Cocamidopropyl Hydroxysultaine, PEG-40 Hydrogenated Castor Oil, Glycerin, Phenoxyethanol, Citrus Nobilis (Mandarin Orange) Peel Oil, Sodium Chloride, Cedrus Atlantica (Cedarwood) Bark Oil, Lavandula Angustifolia (Lavender) Oil, Citrus Aurantium Dulcis (Orange) Oil, Sodium Dehydroacetate, Rosmarinus Officinalis (Rosemary) Leaf Oil, Citric Acid, Limonene, Linalool&nbsp;&nbsp;<br><br>All Aesop products are vegan and cruelty-free, and no ingredient utilised in our formulations is tested on animals.\nThis ingredient list is subject to change. Please refer to the product label for the most accurate ingredient list for each individual product purchased prior to use.<br><br>At THE ICONIC we do our best to provide you with accurate information about product ingredients, based on information provided to us by our Suppliers. For the most complete and up-to-date information, please refer to the product packaging.",
-  "shipment_type": "WH",
-  "color_name": "N/A",
-  "color_hex": "#000000",
-  "cart_price_rules": null,
-  "attributes": null,
-  "simples": null,
-  "sustainability": {
-    "title": "This item is part of our Considered Edit",
-    "items": [
-      "Manufactured in Australia",
-      "Manufactured by an animal testing-free certified brand",
-      "Made using vegan materials",
-      "This brand operates as a not for profit enterprise with a social mission or is a certified B Corp"
-    ],
-    "groups": [
-      {
-        "name": "Eco-Production",
-        "description": "Product made in a location, or using a process, that is associated with a lower environmental impact than other alternatives",
-        "icon": "https://s3-ap-southeast-2.amazonaws.com/mediaonsite.theiconic.com.au/sustainability/Attributes-Icons-_Eco.png"
-      },
-      {
-        "name": "Animal Friendly",
-        "description": "Product made using non-animal alternatives or methods that are associated with good animal welfare",
-        "icon": "https://s3-ap-southeast-2.amazonaws.com/mediaonsite.theiconic.com.au/sustainability/Attributes-Icons-_Animal.png"
-      },
-      {
-        "name": "Community Engagement",
-        "description": "Product made by a brand or using a method associated with positive community benefit, including donations",
-        "icon": "https://s3-ap-southeast-2.amazonaws.com/mediaonsite.theiconic.com.au/sustainability/Attributes-Icons-_Community.png"
-      }
-    ]
-  },
-  "link": "resurrection-aromatique-hand-wash-500ml-1152103.html",
-  "activated_at": "2020-09-30 13:35:29",
-  "return_policy_message": {
-    "message": "This product qualifies for 30 day free returns",
-    "bold_substring": "free returns"
-  },
-  "categories_translated": "Beauty|Body|Hands and Feet|Hand Wash and Soap",
-  "category_path": null,
-  "category_ids": null,
-  "related_products": null,
-  "image_products": null,
-  "attribute_set_identifier": "BT",
-  "supplier": "EMEIS COSMETICS PTY LTD",
-  "wannaby_id": null,
-  "citrus_ad_id": null,
-  "associated_skus": "",
-  "size_guide_url": null,
-  "related": {
-    "count": 0,
-    "label": "Scent",
-    "visible": true,
-    "message": null
-  },
-  "variants": {
-    "count": 0,
-    "label": "Scent",
-    "visible": true,
-    "message": null
-  },
-  "campaign_details": null,
-  "_embedded": {
-    "brand": {
-      "id": 2208,
-      "name": "Aesop",
-      "url_key": "aesop",
-      "image_url": null,
-      "banner_url": null,
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/brands/aesop"
-        }
-      }
-    },
-    "gender": {
-      "id": 3,
-      "name": "unisex",
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/genders/unisex"
-        }
-      }
-    },
-    "shops": [
-      {
-        "is_default": true,
-        "name": "shop",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
-          }
-        }
-      },
-      {
-        "is_default": false,
-        "name": "beautyshop",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/beautyshop"
-          }
-        }
-      }
-    ],
-    "images": [
-      {
-        "url": "http://static.theiconic.com.au/p/aesop-2860-3012511-1.jpg",
-        "thumbnail": "//static.theiconic.com.au/p/aesop-2860-3012511-1.jpg"
-      }
-    ]
-  },
-  "_links": {
-    "self": {
-      "href": "https://eve.theiconic.com.au/catalog/products/AE208BT38HVH"
-    }
-  },
-  "video_previews": []
-},
-{
-  "video_count": 0,
-  "price": 47,
-  "markdown_price": 47,
-  "special_price": 0,
-  "returnable": true,
-  "final_sale": false,
-  "stock_update": null,
-  "final_price": 47,
-  "sku": "UL418BT10SQN",
-  "name": "Queen Screen SPF50+ 50ml",
-  "ribbon": null,
-  "messaging": {
-    "marketing": [],
-    "operational": []
-  },
-  "color_name_brand": "N/A",
-  "short_description": "<b>Ultra Violette's Queen Screen SPF50+ 50ml</b>\n is a luminsing and lightweight serum sunscreen, offering SPF 50+ protection from the whole solar spectrum of environmental damage including UVA + UVB, infrared, blue, visible light, and pollution. The oil-free formula is jam-packed with native antioxidants that’ll melt into your face like a discarded callippo on a hot summer’s day.\n<br><br>\nThe matriarch of the Ultra Violette family smells subtly of roses (heaven!) and co-exists happily with the rest of your skincare (read: no pilling) while providing the perfect base for makeup.\n<br><br>\n-        Suitable for normal, dry and sensitive skin types -  or anyone who wants a glow. Leaves no white cast<br>\n-        Apply 3 full pipettes to skin after moisturiser and before makeup<br>\n-        This product is a skinscreen, i.e. the perfect combination of skincare and sunscreen, purposely designed to work for the good of your skin, both in the short and long term<br>\n-        Free from parabens, oxybenzone, cruelty and any trace of sticky white grease<br>\n-        Australian made, cruelty free and vegan<br>\n-        Measures: 11cm x 5cm x 5cm&nbsp; &nbsp;<br><br>Ingredients: <br>ACTIVES: Ethylhexyl Methoxycinnamate (10%), Ethylhexyl Salicylate (5%), Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine (4%), Methylene Bis-benzotriazolyl Tetramethylbutylphenol (2%)\n\nINACTIVES: Aqua, Cyclopentasiloxane, Cyclohexasiloxane, Isostearyl Neopentanoate, Glycerin, Lauryl PEG/PPG-18/18 Methicone, Silica, Cetyl PEG/PPG-10/1 Dimethicone, Cetyl Dimethicone, Hydroxyacetophenone, Polymethyl Methacrylate, Saccharide Isomerate, Benzyl Alcohol, Phenoxyethanol, Parfum, Mica, Decyl Glucoside, Sodium Laureth Sulfate, Aminomethyl Propanol, Pentylene Glycol, Titanium Dioxide, Terminalia Ferdinandiana Fruit Extract, Propylene Glycol, Xanthan Gum, Citric Acid, Sodium Chloride, Iron Oxide, l-carnosine<br><br>At THE ICONIC we do our best to provide you with accurate information about product ingredients, based on information provided to us by our Suppliers. For the most complete and up-to-date information, please refer to the product packaging.",
-  "shipment_type": "WH",
-  "color_name": "N/A",
-  "color_hex": "#142ed1",
-  "cart_price_rules": null,
-  "attributes": null,
-  "simples": null,
-  "sustainability": {
-    "title": "This item is part of our Considered Edit",
-    "items": [
-      "Manufactured in Australia"
-    ],
-    "groups": [
-      {
-        "name": "Eco-Production",
-        "description": "Product made in a location, or using a process, that is associated with a lower environmental impact than other alternatives",
-        "icon": "https://s3-ap-southeast-2.amazonaws.com/mediaonsite.theiconic.com.au/sustainability/Attributes-Icons-_Eco.png"
-      }
-    ]
-  },
-  "link": "queen-screen-spf50-50ml-1153914.html",
-  "activated_at": "2020-10-09 01:53:13",
-  "return_policy_message": {
-    "message": "This product qualifies for 30 day free returns",
-    "bold_substring": "free returns"
-  },
-  "categories_translated": "Beauty|Skincare|Sun Care|Facial Sunscreen",
-  "category_path": null,
-  "category_ids": null,
-  "related_products": null,
-  "image_products": null,
-  "attribute_set_identifier": "BT",
-  "supplier": "Grace and Fire Pty Ltd",
-  "wannaby_id": null,
-  "citrus_ad_id": null,
-  "associated_skus": "",
-  "size_guide_url": null,
-  "related": {
-    "count": 0,
-    "label": "Colour",
-    "visible": true,
-    "message": null
-  },
-  "variants": {
-    "count": 0,
-    "label": "Colour",
-    "visible": true,
-    "message": null
-  },
-  "campaign_details": null,
-  "_embedded": {
-    "brand": {
-      "id": 5418,
-      "name": "Ultra Violette",
-      "url_key": "ultra-violette",
-      "image_url": null,
-      "banner_url": null,
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/brands/ultra-violette"
-        }
-      }
-    },
-    "gender": {
-      "id": 3,
-      "name": "unisex",
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/genders/unisex"
-        }
-      }
-    },
-    "shops": [
-      {
-        "is_default": true,
-        "name": "shop",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
-          }
-        }
-      },
-      {
-        "is_default": false,
-        "name": "beautyshop",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/beautyshop"
-          }
-        }
-      }
-    ],
-    "images": [
-      {
-        "url": "http://static.theiconic.com.au/p/ultra-violette-8164-4193511-1.jpg",
-        "thumbnail": "//static.theiconic.com.au/p/ultra-violette-8164-4193511-1.jpg"
-      }
-    ]
-  },
-  "_links": {
-    "self": {
-      "href": "https://eve.theiconic.com.au/catalog/products/UL418BT10SQN"
     }
   },
   "video_previews": []
