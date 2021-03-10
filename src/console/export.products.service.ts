@@ -7,9 +7,13 @@ import { WriteFileStream } from './lib/WriteFileStream';
 @Injectable()
 export class ExportProductService {
   private fetch: FetchProducts;
-  private transform: any;
+  private config: { [key: string]: any };
   constructor(private httpService: HttpService) {
     this.fetch = new FetchProducts(this.httpService);
+  }
+
+  setConfig(config: { [key: string]: any }) {
+    this.config = config;
   }
 
   async exportProducts() {
@@ -19,12 +23,16 @@ export class ExportProductService {
     const products: {
       [key: string]: any;
     }[] = await this.fetch.fetchProductsInfo(
-      'https://eve.theiconic.com.au/catalog/products?gender=female&page=1&page_size=10&sort=popularity',
+      this.config.productCatalogUrl,
       'data._embedded.product',
     );
 
     // sort the products
-    const sortedProducts = await this.sortProductsBy(products);
+    const sortedProducts = await this.sortProductsBy(
+      products,
+      this.config.file.sort.byField, // uses the config
+      this.config.file.sort.sortOrder, // uses the config
+    );
 
     // push to the reable stream
     sortedProducts.forEach((product: { [key: string]: any }) => {
@@ -39,18 +47,28 @@ export class ExportProductService {
   }
 
   createTransformStream() {
-    return new TransformData({ objectMode: true }, async (data) =>
-      data.video_count
+    return new TransformData({ objectMode: true }, async (data) => {
+      let extraMetaUrl = this.config.extraMetaUrl;
+      const parseVariables = /\{\{(.*?)\}\}/gi, // regex to get inside {{anythings}}. exec results 2nd array without "{{}}"
+        extractVariables = parseVariables.exec(extraMetaUrl);
+
+      // find all and replace with the actual value
+      extraMetaUrl = extraMetaUrl.replace(
+        `{{${extractVariables[1]}}}`,
+        data[extractVariables[1]],
+      );
+
+      return data.video_count
         ? {
             data: {
               video_previews: await this.fetch.fetchProductsInfo(
-                `https://eve.theiconic.com.au/catalog/products/${data.sku}/videos`,
+                extraMetaUrl,
                 'data._embedded.videos_url',
               ),
             },
           }
-        : { data: { video_previews: [] } },
-    );
+        : { data: { video_previews: [] } };
+    });
   }
 
   createWriteStream(itemCount: number) {

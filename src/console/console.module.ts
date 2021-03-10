@@ -1,7 +1,6 @@
 import { HttpModule, Module } from '@nestjs/common';
 import { ExportProductService } from './export.products.service';
 import { ConsoleController } from './console.controller';
-import { EventEmitterModule } from '@nestjs/event-emitter';
 
 @Module({
   imports: [
@@ -11,7 +10,6 @@ import { EventEmitterModule } from '@nestjs/event-emitter';
         maxRedirects: 5,
       }),
     }),
-    EventEmitterModule.forRoot(),
   ],
   providers: [ExportProductService],
   controllers: [ConsoleController],

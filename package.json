@@ -31,6 +31,8 @@
     "@nestjs/core": "^7.6.13",
     "@nestjs/event-emitter": "^0.0.3",
     "@nestjs/platform-express": "^7.6.13",
+    "@types/edit-json-file": "^1.4.0",
+    "edit-json-file": "^1.6.0",
     "nestjs-console": "^4.0.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",

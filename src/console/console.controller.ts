@@ -1,15 +1,24 @@
 import { Controller } from '@nestjs/common';
 import { ExportProductService } from './export.products.service';
+import { ConfigManager } from './lib/ConfigManager';
 
 @Controller('console')
 export class ConsoleController {
-  constructor(private readonly ExportProductServices: ExportProductService) {}
+  private configManager: ConfigManager;
+  constructor(private readonly ExportProductServices: ExportProductService) {
+    this.configManager = new ConfigManager(`${process.cwd()}/iconic-cli.json`);
+  }
 
   async initOptions(command: string) {
     const exportProductService = this.ExportProductServices;
     switch (command) {
       case 'export-products':
         console.log('generating products');
+        // sets the config
+        const settings = await this.configManager.getConfig(
+          exportProductService.constructor.name,
+        );
+        exportProductService.setConfig(settings);
         await exportProductService.exportProducts();
         break;
 
