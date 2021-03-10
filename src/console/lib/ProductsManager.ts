@@ -1,4 +1,8 @@
-export class FilterProducts {
+/* decided not to use it but needs more work for this work as
+ * the private sortData seems to work may be better for larger ones not just export service
+ */
+
+export class ProductsManager {
   private filteredProducts: any[] = [];
 
   constructor(private byField: string = 'video_count', products: any[] = []) {

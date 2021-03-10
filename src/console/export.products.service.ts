@@ -24,7 +24,7 @@ export class ExportProductService {
     );
 
     // sort the products
-    const sortedProducts = await this.sortDataBy(products);
+    const sortedProducts = await this.sortProductsBy(products);
 
     // push to the reable stream
     sortedProducts.forEach((product: { [key: string]: any }) => {
@@ -64,14 +64,14 @@ export class ExportProductService {
     );
   }
 
-  private sortDataBy(
-    data: Array<{ [key: string]: any }>,
+  private sortProductsBy(
+    products: Array<{ [key: string]: any }>,
     byField: string | number = 'video_count',
     sortType = 'DESC',
   ): Promise<any> {
     return new Promise((resolve) => {
       resolve(
-        data.sort((a, b) => {
+        products.sort((a, b) => {
           if ('DESC' === sortType) {
             return a[byField] > b[byField] ? -1 : 1;
           } else {
