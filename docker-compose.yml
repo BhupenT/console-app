@@ -5,13 +5,13 @@ services:
     image: console_app:${BUILD_TYPE}
     build:
       context: ./
-      target: build
+      target: prod
       dockerfile: ./Dockerfile
 
     # volumes:
     #   - .:/code
     #   - /code/node_modules
-    command: npm run start:dev
+    command: npm run start:prod
 
     networks:
       - Console
