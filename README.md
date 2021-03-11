@@ -25,7 +25,7 @@ requires [Node.js](https://nodejs.org/) v10+ and [Nest.js](https://nestjs.com/) 
 #### Development environment: Install the dependencies and devDependencies and start the server after Cloning this repo
 
 ```sh
-npm ci && npm i -g # if you want to have the iconic-cli command available throughtout
+npm ci && npm run build && npm i -g # if you want to have the iconic-cli command available throughtout
 # running dev mode
 npm run start:dev # this is normal nest
 
