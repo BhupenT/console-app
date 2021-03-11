@@ -1,73 +1,111 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
-</p>
+# Iconic Console APP Test
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Challenge is to write a console application that consumes our product API and decorates results with video preview links (note that not all API results contain video previews). Products that contain video previews should also be preferenced to the top of the results in the final output of the script. Build your solution in either PHP or Typescript. You can use any framework you like however we prefer Symfony for PHP and NestJS for TypeScript. Your script should write the results to a file named out.json
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Features
 
-## Description
+### Under the hood it uses readable | transform | writable
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+#### It should handle large files
+
+- Console application that gets the product from an api
+- automatically sorts the products to top that has video previews
+- also attaches the video previews into the product data after calling from the video api using its sku
+- and finally outputs to a json file with the sorted and attached video datas in a pretty json format
+- Can be used to sort by different field and attach a different field easily with the help of config "iconic-cli.json"
+- powers by the iconic-cli.json
+
+> This is my first time using nest js framework. So i did what i could do while learning. Its great framework.
+> I enjoyed very much with its modular based provider controller system
 
 ## Installation
 
-```bash
-$ npm install
+requires [Node.js](https://nodejs.org/) v10+ and [Nest.js](https://nestjs.com/) to run.
+
+#### Development environment: Install the dependencies and devDependencies and start the server after Cloning this repo
+
+```sh
+npm ci && npm i -g # if you want to have the iconic-cli command available throughtout
+# running dev mode
+npm run start:dev # this is normal nest
+
+# to export products
+npm run console-app export-products
+
+# or if you installed as npm -i g
+iconic-cli export-products
 ```
 
-## Running the app
+For production environments...
 
-```bash
-# development
-$ npm run start
+```sh
+npm install --production
+NODE_ENV=production
+npm run build && npm run start:prod # this is normal nest server
 
-# watch mode
-$ npm run start:dev
+# to export products
+npm run console-app export-products
 
-# production mode
-$ npm run start:prod
+# or if you installed as npm -i g
+iconic-cli export-products
 ```
 
-## Test
+## Docker and Docker Compose if you prefer
 
-```bash
-# unit tests
-$ npm run test
+This is a multi build docker build process. Requires docker-compose and docker both installed in your computer.
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+```sh
+.env # docker and docker-compose
 ```
 
-## Support
+```sh
+iconic-cli.json # used for export product settings
+```
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+#### Building from Docker compose
+
+make sure .env variables is set to as:
+
+## For production
+
+```sh
+BUILD_TYPE=prod #use dev for dev build
+CONSOLE_PORT=3000 #totally up to you
+NODE_ENV=production #set development for development
+BUILD_TARGET=prod #set build to target build image
+```
+
+#### docker-compose.yml by default its set to prod
+
+```sh
+docker-compose build
+docker-compose up -d
+docker-compose exec console-app /bin/sh # going inside the container
+iconic-cli export-products
+cat out.json
+```
+
+## For Development and Testing
+
+#### set docker-compose.yml "command": npm run start:dev
+
+```sh
+BUILD_TYPE=dev
+CONSOLE_PORT=3000 #totally up to you
+NODE_ENV=development #set development for development
+BUILD_TARGET=build #set build to target build image
+```
+
+```sh
+docker-compose up -d
+docker-compose exec console-app /bin/sh # going inside the container
+iconic-cli export-products
+cat out.json
+npm run test:cov
+# or
+npm run test
+```
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+- Author - [Bhupendra Tamang](https://github.com/BhupenT)

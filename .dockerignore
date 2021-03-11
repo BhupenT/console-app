@@ -1,6 +1,6 @@
 dist
 node_modules
-.*
+src/console/__snapshots__
 docker-compose.yml
 Dockerfile
 output.json

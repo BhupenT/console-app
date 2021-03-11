@@ -7,10 +7,11 @@ import { TransformData } from './lib/TransformDataStream';
 import { WriteFileStream } from './lib/WriteFileStream';
 import { Readable } from 'stream';
 import * as fs from 'fs';
+import * as consoleTypes from './lib/types';
 
 describe('ExportProductService', () => {
   let service: ExportProductService,
-    configSettings: { [key: string]: any },
+    configSettings: consoleTypes.ExportProductsConfigSettings,
     products: Promise<any>,
     transformTestFile: any,
     exportTestFile: any,
@@ -126,6 +127,8 @@ describe('ExportProductService', () => {
       (configSettings = await Config.getConfig('ExportProductService')),
       service.setConfig(configSettings);
 
+    await service.exportProducts();
+
     products = await Fetch.fetchProductsInfo(
       configSettings.productCatalogUrl,
       configSettings.targetFields.products,
@@ -204,12 +207,12 @@ describe('ExportProductService', () => {
       .pipe(writeTransformStream);
   });
 
-  afterEach(async () => {
+  afterAll(async () => {
     (transformTestFile = await readTestFile(
       `output-transform-write-test.json`,
     )),
       (writeTestFile = await readTestFile(`output-write-test.json`)),
-      (exportTestFile = await readTestFile(`output.json`));
+      (exportTestFile = await readTestFile(`out.json`));
   });
 
   it('should be defined', () => {

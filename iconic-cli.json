@@ -3,7 +3,7 @@
         "productCatalogUrl": "https://eve.theiconic.com.au/catalog/products?gender=female&page=1&page_size=10&sort=popularity",
         "extraMetaUrl": "https://eve.theiconic.com.au/catalog/products/{{sku}}/videos",
         "file": {
-            "name": "output.json",
+            "name": "out.json",
             "type": "json",
             "sort": {
                 "byField": "video_count",

@@ -1,0 +1,142 @@
+[
+{
+  "video_count": 1,
+  "price": 119.99,
+  "markdown_price": 119.99,
+  "special_price": 0,
+  "returnable": true,
+  "final_sale": false,
+  "stock_update": null,
+  "final_price": 119.99,
+  "sku": "RU859SA84KCH",
+  "name": "Ab Tastic Studio Full Length Tights",
+  "ribbon": "new",
+  "messaging": {
+    "marketing": [
+      {
+        "type": "new",
+        "short": "New",
+        "medium": "New arrival",
+        "long": "New arrival",
+        "color": "#42ABC8",
+        "url": null
+      }
+    ],
+    "operational": []
+  },
+  "color_name_brand": "Black Marle",
+  "short_description": "Fusing functionality with style, <b>Running Bare</b> is designed for the fit and fun-loving woman. Launched in Sydney in 1983, the brand continues to encourage women to live it, love it and rock it in functionally fashionable workout gear. From bright tights to kaleidoscopic crops, <b>Running Bare</b> enables you to look and feel fantastic during every workout.\n<br><br>\nLength: Inside Leg: 70cm. Rise: 31cm. Leg Opening: 20cm (size AU 8). Our model is 175.3cm (5’9”) tall with a 78.7cm (31”) bust, a 61.0cm (24”) waist and 88.9cm (35”) hips.\n<br><br>\n- Moisture-wicking performance fabric; two-way stretch <br>\n- Ultra high-rise waistband <br>\n- Seamless outer leg <br>\n- Manufactured in Australia ",
+  "shipment_type": "WH",
+  "color_name": "Black Marle",
+  "color_hex": "#000000",
+  "cart_price_rules": null,
+  "attributes": null,
+  "simples": null,
+  "sustainability": {
+    "title": "This item is part of our Considered Edit",
+    "items": [
+      "Manufactured in Australia"
+    ],
+    "groups": [
+      {
+        "name": "Eco-Production",
+        "description": "Product made in a location, or using a process, that is associated with a lower environmental impact than other alternatives",
+        "icon": "https://s3-ap-southeast-2.amazonaws.com/mediaonsite.theiconic.com.au/sustainability/Attributes-Icons-_Eco.png"
+      }
+    ]
+  },
+  "link": "ab-tastic-studio-full-length-tights-1208710.html",
+  "activated_at": "2021-03-10 12:30:21",
+  "return_policy_message": {
+    "message": "This product qualifies for 30 day free returns",
+    "bold_substring": "free returns"
+  },
+  "categories_translated": "Clothing|Tights|Sports Tights|Full Tights",
+  "category_path": null,
+  "category_ids": null,
+  "related_products": null,
+  "image_products": null,
+  "attribute_set_identifier": "SA",
+  "supplier": "Running Bare Australia Pty Ltd",
+  "wannaby_id": null,
+  "citrus_ad_id": null,
+  "associated_skus": "RU859SA44NQH|RU859SA84KCH|NE838SF16JOX|RU859SE44TUX|RU859SE81CWK",
+  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SA&brand=Running+Bare&gender=female",
+  "related": {
+    "count": 2,
+    "label": "Colour",
+    "visible": true,
+    "message": "More colours available"
+  },
+  "variants": {
+    "count": 2,
+    "label": "Colour",
+    "visible": true,
+    "message": "More colours available"
+  },
+  "campaign_details": null,
+  "_embedded": {
+    "brand": {
+      "id": 859,
+      "name": "Running Bare",
+      "url_key": "running-bare",
+      "image_url": "http://static.theiconic.com.au/b/running-bare.jpg",
+      "banner_url": null,
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/brands/running-bare"
+        }
+      }
+    },
+    "gender": {
+      "id": 2,
+      "name": "female",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/genders/female"
+        }
+      }
+    },
+    "shops": [
+      {
+        "is_default": false,
+        "name": "sports",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/sports"
+          }
+        }
+      },
+      {
+        "is_default": true,
+        "name": "shop",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
+          }
+        }
+      }
+    ],
+    "images": [
+      {
+        "url": "http://static.theiconic.com.au/p/running-bare-3793-0178021-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/running-bare-3793-0178021-1.jpg"
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://eve.theiconic.com.au/catalog/products/RU859SA84KCH"
+    }
+  },
+  "video_previews": [
+    {
+      "url": "https://vod-progressive.akamaized.net/exp=1615485341~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696764%2F2437164858.mp4~hmac=03961472138c1d2427f77ec81f51861aa59041db325c21090be93b1d3e66b210/vimeo-prod-skyfire-std-us/01/4339/20/521696764/2437164858.mp4",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/products/RU859SA84KCH/videos"
+        }
+      }
+    }
+  ]
+},

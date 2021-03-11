@@ -61,11 +61,15 @@ export class ExportProductService {
 
     readableStream
       .pipe(this.createTransformStream()) // transform the product
-      .pipe(this.createWriteStream(sortedProducts.length)); // finally drain write in the writable stream
+      .pipe(this.createWriteStream(sortedProducts.length))
+      .on('finish', () => {
+        console.log(`All products has been exported`);
+      }); // finally drain write in the writable stream
   }
 
   createTransformStream() {
     return new TransformData({ objectMode: true }, async (data) => {
+      console.log(`getting videos for product ${data.name}`);
       let extraMetaUrl = this.config.extraMetaUrl;
       const parseVariables = /\{\{(.*?)\}\}/gi, // regex to get inside {{anythings}}. exec results 2nd array without "{{}}"
         extractVariables = parseVariables.exec(extraMetaUrl);
