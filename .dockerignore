@@ -1,9 +1,6 @@
 dist
 node_modules
-.vscode
-.dockerignore
-.git
-.gitignore
+.*
 docker-compose.yml
 Dockerfile
 output.json
