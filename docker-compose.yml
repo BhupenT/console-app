@@ -9,8 +9,8 @@ services:
       dockerfile: ./Dockerfile
 
     # volumes:
-    #   - .:/code
-    #   - /code/node_modules
+    #   - .:/home/node
+    #   - /home/node/node_modules
     command: npm run start:dev #change this whatever available in package.json to run in run time
 
     networks:
