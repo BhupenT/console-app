@@ -35,7 +35,7 @@ export class ExportProductService {
         this.config.file.sort.sortOrder, // uses the config
       );
     } catch (error) {
-      console.log(error);
+      console.log(error.message);
     }
 
     if (!sortedProducts || !sortedProducts.length) {
