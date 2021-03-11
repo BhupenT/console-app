@@ -1,6 +1,7 @@
 import { Controller } from '@nestjs/common';
 import { ExportProductService } from './export.products.service';
 import { ConfigManager } from './lib/ConfigManager';
+import * as consoleApp from './lib/types';
 
 @Controller('console')
 export class ConsoleController {
@@ -15,7 +16,7 @@ export class ConsoleController {
       case 'export-products':
         console.log('generating products');
         // sets the config
-        const settings = await this.configManager.getConfig(
+        const settings: consoleApp.ExportProductsConfigSettings = await this.configManager.getConfig(
           exportProductService.constructor.name,
         );
         exportProductService.setConfig(settings);
@@ -23,7 +24,9 @@ export class ConsoleController {
         break;
 
       default:
-        console.log(`No such ${command} found. See --help for more info`);
+        console.log(
+          `No such ${command} command found. See --help for more info`,
+        );
         process.exit(1);
         break;
     }

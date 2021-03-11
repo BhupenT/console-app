@@ -2,6 +2,8 @@
  * the private sortData seems to work may be better for larger ones not just export service
  */
 
+/* istanbul ignore file */
+
 export class ProductsManager {
   private filteredProducts: any[] = [];
 

@@ -3,6 +3,7 @@ import { FetchProducts } from './lib/FetchProducts';
 import { Readable } from 'stream';
 import { TransformData } from './lib/TransformDataStream';
 import { WriteFileStream } from './lib/WriteFileStream';
+import * as consoleApp from './lib/types';
 
 @Injectable()
 export class ExportProductService {
@@ -13,12 +14,9 @@ export class ExportProductService {
   }
 
   async getProducts(): Promise<any> {
-    interface Products {
-      [key: string]: any;
-    }
     return new Promise(async (resolve, reject) => {
       try {
-        const products: Array<Products> = await this.fetch.fetchProductsInfo(
+        const products: Array<consoleApp.Products> = await this.fetch.fetchProductsInfo(
           this.config.productCatalogUrl,
           this.config.targetFields.products,
         );
@@ -36,13 +34,10 @@ export class ExportProductService {
 
   async exportProducts() {
     const readableStream = new Readable({ objectMode: true });
-    interface Products {
-      [key: string]: any;
-    }
-    let sortedProducts: Array<Products>;
+    let sortedProducts: Array<consoleApp.Products>;
     try {
       // get the initial products
-      const products: Array<Products> = await this.getProducts();
+      const products: Array<consoleApp.Products> = await this.getProducts();
       // sort the products
       sortedProducts = await this.sortProductsBy(
         products,
@@ -58,7 +53,7 @@ export class ExportProductService {
     }
 
     // push to the reable stream
-    sortedProducts.forEach((product: { [key: string]: any }) => {
+    sortedProducts.forEach((product: consoleApp.Products) => {
       readableStream.push(product);
     });
 
@@ -109,7 +104,7 @@ export class ExportProductService {
     );
   }
 
-  setConfig(config: { [key: string]: any }) {
+  setConfig(config: consoleApp.ExportProductsConfigSettings) {
     this.config = config;
   }
 
@@ -121,9 +116,9 @@ export class ExportProductService {
   }
 
   sortProductsBy(
-    products: Array<{ [key: string]: any }>,
+    products: Array<consoleApp.Products>,
     byField: string | number = 'video_count',
-    sortType = 'DESC',
+    sortType: consoleApp.DESC | consoleApp.ASC = 'DESC',
   ): Promise<any> {
     return new Promise((resolve) => {
       resolve(
