@@ -66,10 +66,7 @@ export class ExportProductService {
 
     readableStream
       .pipe(this.createTransformStream()) // transform the product
-      .pipe(this.createWriteStream(sortedProducts.length))
-      .on('finish', () => {
-        console.log('done');
-      }); // finally drain write in the writable stream
+      .pipe(this.createWriteStream(sortedProducts.length)); // finally drain write in the writable stream
   }
 
   createTransformStream() {

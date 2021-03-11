@@ -6,18 +6,34 @@ import { FetchProducts } from './lib/FetchProducts';
 import { TransformData } from './lib/TransformDataStream';
 import { WriteFileStream } from './lib/WriteFileStream';
 import { Readable } from 'stream';
-import { readFileSync } from 'fs';
+import * as fs from 'fs';
 
 describe('ExportProductService', () => {
   let service: ExportProductService,
     configSettings: { [key: string]: any },
     products: Promise<any>,
     transformTestFile: any,
+    exportTestFile: any,
     writeTestFile: any;
+
   const Config: ConfigManager = new ConfigManager(
       `${process.cwd()}/iconic-cli.json`,
     ),
     Fetch: FetchProducts = new FetchProducts(new HttpService());
+
+  const readTestFile = (fileName) => {
+    return new Promise((resolve, reject) => {
+      fs.readFile(`${process.cwd()}/${fileName}`, 'utf8', (err, data) => {
+        if (err) {
+          // no file present
+          reject(false);
+        } else {
+          // file present already initialised
+          resolve(data);
+        }
+      });
+    });
+  };
 
   const productsRecieved = [
     {
@@ -124,6 +140,9 @@ describe('ExportProductService', () => {
       },
     );
 
+    /*** --- testing the writeStream
+     * test on file that will be written
+     */
     const readableStream = new Readable({ objectMode: true });
     // push to the reable stream
     productsToWrite.forEach((product: { [key: string]: any }) => {
@@ -133,26 +152,29 @@ describe('ExportProductService', () => {
     readableStream.push(null); // push null to close the stream as its finished
     readableStream.pipe(writeStream);
 
+    /*** --- testing the transform indcluding write stream
+     * test on file that will be written
+     */
+
     // push to the reable stream
     /* here using productsReceived array because this was sorted in above test as javascript
      * sort functions pushes to the parent
      */
-
-    const writeTransformStream = new WriteFileStream(
-      'output-transform-write-test.json',
-      'json',
-      { itemCount: 4 },
-      {
-        objectMode: true,
-      },
-    );
-    const readableTransformStream = new Readable({ objectMode: true });
+    const readableTransformStream = new Readable({ objectMode: true }),
+      writeTransformStream = new WriteFileStream(
+        'output-transform-write-test.json',
+        'json',
+        { itemCount: 4 },
+        {
+          objectMode: true,
+        },
+      );
 
     productsToTransformWrite.forEach((product: { [key: string]: any }) => {
       readableTransformStream.push(product);
     });
-
     readableTransformStream.push(null); // push null to close the stream as its finished
+
     const transformStream = new TransformData(
       { objectMode: true },
       async (data) => {
@@ -176,22 +198,18 @@ describe('ExportProductService', () => {
         } catch (error) {}
       },
     );
+
     readableTransformStream
       .pipe(transformStream) // transfrom data
       .pipe(writeTransformStream);
   });
 
   afterEach(async () => {
-    (transformTestFile = await readFileSync(
-      `${process.cwd()}/output-transform-write-test.json`,
-      { encoding: 'utf8' },
+    (transformTestFile = await readTestFile(
+      `output-transform-write-test.json`,
     )),
-      (writeTestFile = await readFileSync(
-        `${process.cwd()}/output-write-test.json`,
-        {
-          encoding: 'utf8',
-        },
-      ));
+      (writeTestFile = await readTestFile(`output-write-test.json`)),
+      (exportTestFile = await readTestFile(`output.json`));
   });
 
   it('should be defined', () => {
@@ -214,5 +232,10 @@ describe('ExportProductService', () => {
 
   it('should transform and then write in a json file', async () => {
     expect(transformTestFile).toMatchSnapshot();
+  });
+
+  it('should get the product from the api, transform and write to a json file output.json', async () => {
+    // this is may not be correct when the api gives different result please update the snap shot
+    expect(JSON.stringify(exportTestFile)).toMatchSnapshot();
   });
 });
