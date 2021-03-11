@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExportProductService should sort products by video_count by decending order 1`] = `
+Array [
+  Object {
+    "name": "sampleProduct3",
+    "video_count": 1,
+  },
+  Object {
+    "name": "sampleProduct2",
+    "video_count": 1,
+  },
+  Object {
+    "name": "dummyProduct",
+    "video_count": 0,
+  },
+  Object {
+    "name": "sampleProduct",
+    "video_count": 0,
+  },
+]
+`;
+
+exports[`ExportProductService should transform and then write in a json file 1`] = `
+"[
+{
+  \\"name\\": \\"sampleProduct3\\",
+  \\"video_count\\": 1,
+  \\"video_previews\\": [
+    {
+      \\"url\\": \\"'https://sample-test-video-mp3-sampleProduct3.com'\\",
+      \\"_links\\": {
+        \\"self\\": {
+          \\"href\\": \\"https://eve.theiconic.com.au/catalog/products/sampleProduct3/videos\\"
+        }
+      }
+    }
+  ]
+},
+{
+  \\"name\\": \\"sampleProduct2\\",
+  \\"video_count\\": 1,
+  \\"video_previews\\": [
+    {
+      \\"url\\": \\"'https://sample-test-video-mp3-sampleProduct2.com'\\",
+      \\"_links\\": {
+        \\"self\\": {
+          \\"href\\": \\"https://eve.theiconic.com.au/catalog/products/sampleProduct2/videos\\"
+        }
+      }
+    }
+  ]
+},
+{
+  \\"name\\": \\"dummyProduct\\",
+  \\"video_count\\": 0,
+  \\"video_previews\\": []
+},
+{
+  \\"name\\": \\"sampleProduct\\",
+  \\"video_count\\": 0,
+  \\"video_previews\\": []
+}
+]"
+`;
+
+exports[`ExportProductService should write in a json file 1`] = `
+"[
+{
+  \\"name\\": \\"sampleProduct\\",
+  \\"video_count\\": 0
+},
+{
+  \\"name\\": \\"dummyProduct\\",
+  \\"video_count\\": 0
+},
+{
+  \\"name\\": \\"sampleProduct2\\",
+  \\"video_count\\": 1
+},
+{
+  \\"name\\": \\"sampleProduct3\\",
+  \\"video_count\\": 1
+}
+]"
+`;

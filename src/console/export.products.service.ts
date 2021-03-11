@@ -12,6 +12,28 @@ export class ExportProductService {
     this.fetch = new FetchProducts(this.httpService);
   }
 
+  async getProducts(): Promise<any> {
+    interface Products {
+      [key: string]: any;
+    }
+    return new Promise(async (resolve, reject) => {
+      try {
+        const products: Array<Products> = await this.fetch.fetchProductsInfo(
+          this.config.productCatalogUrl,
+          this.config.targetFields.products,
+        );
+        if (!products || !products.length) {
+          this.showErrorMessage('No products to export', true);
+        }
+
+        resolve(products);
+      } catch (error) {
+        this.showErrorMessage(error.message, true);
+        reject(error);
+      }
+    });
+  }
+
   async exportProducts() {
     const readableStream = new Readable({ objectMode: true });
     interface Products {
@@ -20,14 +42,7 @@ export class ExportProductService {
     let sortedProducts: Array<Products>;
     try {
       // get the initial products
-      const products: Array<Products> = await this.fetch.fetchProductsInfo(
-        this.config.productCatalogUrl,
-        this.config.targetFields.products,
-      );
-
-      if (!products || !products.length) {
-        this.showErrorMessage('No products to export', true);
-      }
+      const products: Array<Products> = await this.getProducts();
       // sort the products
       sortedProducts = await this.sortProductsBy(
         products,
@@ -51,7 +66,10 @@ export class ExportProductService {
 
     readableStream
       .pipe(this.createTransformStream()) // transform the product
-      .pipe(this.createWriteStream(sortedProducts.length)); // finally drain write in the writable stream
+      .pipe(this.createWriteStream(sortedProducts.length))
+      .on('finish', () => {
+        console.log('done');
+      }); // finally drain write in the writable stream
   }
 
   createTransformStream() {
@@ -105,7 +123,7 @@ export class ExportProductService {
     }
   }
 
-  private sortProductsBy(
+  sortProductsBy(
     products: Array<{ [key: string]: any }>,
     byField: string | number = 'video_count',
     sortType = 'DESC',

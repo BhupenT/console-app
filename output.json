@@ -1,15 +1,15 @@
 [
 {
-  "video_count": 0,
-  "price": 149,
-  "markdown_price": 149,
+  "video_count": 1,
+  "price": 65,
+  "markdown_price": 65,
   "special_price": 0,
   "returnable": true,
   "final_sale": false,
   "stock_update": null,
-  "final_price": 149,
-  "sku": "PE745AA45KBQ",
-  "name": "Opponent Sweat",
+  "final_price": 65,
+  "sku": "NI126SA54AMR",
+  "name": "The Nike Yoga Luxe Tank",
   "ribbon": "new",
   "messaging": {
     "marketing": [
@@ -24,32 +24,32 @@
     ],
     "operational": []
   },
-  "color_name_brand": "Grey Marle",
-  "short_description": "Australian sportswear label <b>P.E Nation</b> is the epitome of an active-meets-urban lifestyle, with a focus on complementing an active schedule with unsurpassed style. THE ICONIC offers a wide range of <b>P.E Nation</b> sports apparel and accessories to suit every style profile. <br><br>Length: 47cm (size small). Our model is 174.0cm (5’8.5”) tall with a 81.3cm (32”) bust, a 63.5cm (25”) waist and 94.0cm (37”) hips.<br><br>- Organic cotton jersey; natural stretch; fleece-lined; opaque<br>- Ribbed crew neckline and cuffs<br>- Branded jacquard elastic hemline<br>- Colour-blocked design<br>- Cropped",
+  "color_name_brand": "Black & Dark Smoke Grey",
+  "short_description": "American sportswear giant <b>Nike</b> has established an inimitable reputation for performance and innovation. Combining a technical understanding of an athlete’s needs with a strong eye for style, <b>Nike</b> has become the go-to for professional and amateur athletes alike. \n<br><br>\nLength: 58cm (size small). Our model is 175.3cm (5’9”) tall with a 78.7cm (31”) bust, a 61.0cm (24”) waist and 88.9cm (35”) hips.\n<br><br>\n- Nike Infinalon performance fabric; stretch <br>\n- Dri-FIT moisture-wicking technology <br>\n- Built-in shelf bra; no padding <br>\n- Fixed straps ",
   "shipment_type": "WH",
-  "color_name": "Grey Marle",
-  "color_hex": "#b8b8b8",
+  "color_name": "Black & Dark Smoke Grey",
+  "color_hex": "#000000",
   "cart_price_rules": null,
   "attributes": null,
   "simples": null,
   "sustainability": null,
-  "link": "opponent-sweat-1202885.html",
-  "activated_at": "2021-03-11 12:17:05",
+  "link": "the-nike-yoga-luxe-tank-1108896.html",
+  "activated_at": "2021-03-10 11:04:18",
   "return_policy_message": {
     "message": "This product qualifies for 30 day free returns",
     "bold_substring": "free returns"
   },
-  "categories_translated": "Clothing|Sweats and Hoodies|Crew Necks",
+  "categories_translated": "Clothing|T-Shirts and Singlets|Muscle Tops",
   "category_path": null,
   "category_ids": null,
   "related_products": null,
   "image_products": null,
-  "attribute_set_identifier": "AA",
-  "supplier": "PE Nation Pty Ltd",
+  "attribute_set_identifier": "SA",
+  "supplier": "NIKE AUSTRALIA PTY LTD",
   "wannaby_id": null,
   "citrus_ad_id": null,
-  "associated_skus": "PE745AA91VMI|PE745AA45KBQ|NE838SF16JOX|PE745AC10NLH|KL890SE09VWG",
-  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=AA&brand=P.E+Nation&gender=female",
+  "associated_skus": "NI126SA54AMR|CO625AA42WVL|NI126SE21LPQ|ON113AC09DHQ",
+  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SA&brand=Nike&gender=female",
   "related": {
     "count": 0,
     "label": "Colour",
@@ -65,14 +65,14 @@
   "campaign_details": null,
   "_embedded": {
     "brand": {
-      "id": 3745,
-      "name": "P.E Nation",
-      "url_key": "pe-nation",
-      "image_url": "http://static.theiconic.com.au/b/pe-nation.jpg",
+      "id": 126,
+      "name": "Nike",
+      "url_key": "nike",
+      "image_url": "http://static.theiconic.com.au/b/nike.jpg",
       "banner_url": null,
       "_links": {
         "self": {
-          "href": "https://eve.theiconic.com.au/catalog/brands/pe-nation"
+          "href": "https://eve.theiconic.com.au/catalog/brands/nike"
         }
       }
     },
@@ -107,29 +107,38 @@
     ],
     "images": [
       {
-        "url": "http://static.theiconic.com.au/p/pe-nation-3284-5882021-1.jpg",
-        "thumbnail": "//static.theiconic.com.au/p/pe-nation-3284-5882021-1.jpg"
+        "url": "http://static.theiconic.com.au/p/nike-8972-6988011-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/nike-8972-6988011-1.jpg"
       }
     ]
   },
   "_links": {
     "self": {
-      "href": "https://eve.theiconic.com.au/catalog/products/PE745AA45KBQ"
+      "href": "https://eve.theiconic.com.au/catalog/products/NI126SA54AMR"
     }
   },
-  "video_previews": []
+  "video_previews": [
+    {
+      "url": "https://vod-progressive.akamaized.net/exp=1615468150~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696521%2F2437163147.mp4~hmac=c8df2d4de08836de9ca9f0b096a296a55609bdc4beca33e81ab08b75e524ec61/vimeo-prod-skyfire-std-us/01/4339/20/521696521/2437163147.mp4",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/products/NI126SA54AMR/videos"
+        }
+      }
+    }
+  ]
 },
 {
-  "video_count": 0,
-  "price": 220,
-  "markdown_price": 220,
+  "video_count": 1,
+  "price": 70,
+  "markdown_price": 70,
   "special_price": 0,
   "returnable": true,
   "final_sale": false,
   "stock_update": null,
-  "final_price": 220,
-  "sku": "AS119SF44EPB",
-  "name": "GT-2000 9 (D Wide) - Women's",
+  "final_price": 70,
+  "sku": "NI126SA62LQZ",
+  "name": "Swoosh Run Half-Zip Mid-Layer Top",
   "ribbon": "new",
   "messaging": {
     "marketing": [
@@ -144,17 +153,411 @@
     ],
     "operational": []
   },
-  "color_name_brand": "Black & Lilac Opal",
-  "short_description": "<strong>PLEASE NOTE - THE ICONIC IS UNABLE TO SHIP THIS PRODUCT TO NEW ZEALAND</strong>\n<br><br>\nThe <strong>ASICS&nbsp;GT-2000 9&nbsp;</strong>sneakers are imbued with the brand's renowned GEL technology for superior foot support.\n<br><br>\n- One-piece performance mesh upper<br>\n- GEL technology cushioning on rearfoot and forefoot for comfort<br>\n- Flytefoam™&nbsp;technology cushioning<br>- Wide fit / D fit",
+  "color_name_brand": "Black & White",
+  "short_description": "American sportswear giant <b>Nike</b> has established an inimitable reputation for performance and innovation. Combining a technical understanding of an athlete’s needs with a strong eye for style, <b>Nike</b> has become the go-to for professional and amateur athletes alike. \n<br><br>\nLength: 66cm (size small). Our model is 175.3cm (5’9”) tall with a 78.7cm (31”) bust, a 61.0cm (24”) waist and 88.9cm (35”) hips.\n<br><br>\n- Nike DRY performance fabric; generous stretch <br>\n- Dri-FIT moisture-wicking technology <br>\n- Half-zip placket <br>\n- Long sleeves <br>\n- Reflective elements to back for optimal visibility in lowlight conditions ",
   "shipment_type": "WH",
-  "color_name": "Black & Lilac Opal",
-  "color_hex": "#d1cfd1",
+  "color_name": "Black & White",
+  "color_hex": "#000000",
   "cart_price_rules": null,
   "attributes": null,
   "simples": null,
   "sustainability": null,
-  "link": "gt-2000-9-d-wide-women-s-1194465.html",
-  "activated_at": "2021-03-10 12:09:38",
+  "link": "swoosh-run-half-zip-mid-layer-top-1108922.html",
+  "activated_at": "2021-03-10 11:04:18",
+  "return_policy_message": {
+    "message": "This product qualifies for 30 day free returns",
+    "bold_substring": "free returns"
+  },
+  "categories_translated": "Clothing|T-Shirts and Singlets|Long Sleeve T-Shirts",
+  "category_path": null,
+  "category_ids": null,
+  "related_products": null,
+  "image_products": null,
+  "attribute_set_identifier": "SA",
+  "supplier": "NIKE AUSTRALIA PTY LTD",
+  "wannaby_id": null,
+  "citrus_ad_id": null,
+  "associated_skus": "NI126SF83BBC|NI126SA62LQZ|NI126SA60JQD|NI126SE88YGD|NI126SE91VNC|NI126SE12BFB",
+  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SA&brand=Nike&gender=female",
+  "related": {
+    "count": 0,
+    "label": "Colour",
+    "visible": true,
+    "message": null
+  },
+  "variants": {
+    "count": 0,
+    "label": "Colour",
+    "visible": true,
+    "message": null
+  },
+  "campaign_details": null,
+  "_embedded": {
+    "brand": {
+      "id": 126,
+      "name": "Nike",
+      "url_key": "nike",
+      "image_url": "http://static.theiconic.com.au/b/nike.jpg",
+      "banner_url": null,
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/brands/nike"
+        }
+      }
+    },
+    "gender": {
+      "id": 2,
+      "name": "female",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/genders/female"
+        }
+      }
+    },
+    "shops": [
+      {
+        "is_default": false,
+        "name": "sports",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/sports"
+          }
+        }
+      },
+      {
+        "is_default": true,
+        "name": "shop",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
+          }
+        }
+      }
+    ],
+    "images": [
+      {
+        "url": "http://static.theiconic.com.au/p/nike-8999-2298011-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/nike-8999-2298011-1.jpg"
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://eve.theiconic.com.au/catalog/products/NI126SA62LQZ"
+    }
+  },
+  "video_previews": [
+    {
+      "url": "https://vod-progressive.akamaized.net/exp=1615468150~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696551%2F2437183951.mp4~hmac=bb7a84403296631bd06b2566d6f79d4bc3315f1efb42b32293c15d4e4b925211/vimeo-prod-skyfire-std-us/01/4339/20/521696551/2437183951.mp4",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/products/NI126SA62LQZ/videos"
+        }
+      }
+    }
+  ]
+},
+{
+  "video_count": 1,
+  "price": 75,
+  "markdown_price": 75,
+  "special_price": 0,
+  "returnable": true,
+  "final_sale": false,
+  "stock_update": null,
+  "final_price": 75,
+  "sku": "NI126SA24NQD",
+  "name": "Epic Luxe Trail Running Shorts",
+  "ribbon": "new",
+  "messaging": {
+    "marketing": [
+      {
+        "type": "new",
+        "short": "New",
+        "medium": "New arrival",
+        "long": "New arrival",
+        "color": "#42ABC8",
+        "url": null
+      }
+    ],
+    "operational": []
+  },
+  "color_name_brand": "Black, Dark Smoke Grey & Reflective Silver",
+  "short_description": "American sportswear giant <b>Nike</b> has established an inimitable reputation for performance and innovation. <br><br>\nLength: 36cm (size small).  Our model is 174.0cm (5’8.5”) tall with a 83.8cm (33”) bust, a 64.8cm (25.5”) waist and 90.2cm (35.5”) hips.\n<br><br>- Lightweight Nike Power performance fabric; moisture-wicking<br>- Three waistband pockets; two thigh slip pockets<br>- Interior taping for secure fit",
+  "shipment_type": "WH",
+  "color_name": "Black, Dark Smoke Grey & Reflective Silver",
+  "color_hex": "#000000",
+  "cart_price_rules": null,
+  "attributes": null,
+  "simples": null,
+  "sustainability": null,
+  "link": "epic-luxe-trail-running-shorts-1108934.html",
+  "activated_at": "2021-03-10 11:04:18",
+  "return_policy_message": {
+    "message": "This product qualifies for 30 day free returns",
+    "bold_substring": "free returns"
+  },
+  "categories_translated": "Clothing|Shorts|Tights|Sports Tights|12 Tights",
+  "category_path": null,
+  "category_ids": null,
+  "related_products": null,
+  "image_products": null,
+  "attribute_set_identifier": "SA",
+  "supplier": "NIKE AUSTRALIA PTY LTD",
+  "wannaby_id": null,
+  "citrus_ad_id": null,
+  "associated_skus": "NI126SA24NQD|NI126SA59HNC|NI126SF92FWL|NI126SE10IMF|NI126SE47TGY",
+  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SA&brand=Nike&gender=female",
+  "related": {
+    "count": 0,
+    "label": "Colour",
+    "visible": true,
+    "message": null
+  },
+  "variants": {
+    "count": 0,
+    "label": "Colour",
+    "visible": true,
+    "message": null
+  },
+  "campaign_details": null,
+  "_embedded": {
+    "brand": {
+      "id": 126,
+      "name": "Nike",
+      "url_key": "nike",
+      "image_url": "http://static.theiconic.com.au/b/nike.jpg",
+      "banner_url": null,
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/brands/nike"
+        }
+      }
+    },
+    "gender": {
+      "id": 2,
+      "name": "female",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/genders/female"
+        }
+      }
+    },
+    "shops": [
+      {
+        "is_default": false,
+        "name": "sports",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/sports"
+          }
+        }
+      },
+      {
+        "is_default": true,
+        "name": "shop",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
+          }
+        }
+      }
+    ],
+    "images": [
+      {
+        "url": "http://static.theiconic.com.au/p/nike-9019-4398011-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/nike-9019-4398011-1.jpg"
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://eve.theiconic.com.au/catalog/products/NI126SA24NQD"
+    }
+  },
+  "video_previews": [
+    {
+      "url": "https://vod-progressive.akamaized.net/exp=1615468151~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696491%2F2437162911.mp4~hmac=64e2a5fa13036055b982c1bdc3602bb6f2b646259ad4739ac19895bcaba2d7f6/vimeo-prod-skyfire-std-us/01/4339/20/521696491/2437162911.mp4",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/products/NI126SA24NQD/videos"
+        }
+      }
+    }
+  ]
+},
+{
+  "video_count": 0,
+  "price": 40,
+  "markdown_price": 40,
+  "special_price": 0,
+  "returnable": true,
+  "final_sale": false,
+  "stock_update": null,
+  "final_price": 40,
+  "sku": "AE208BT38HVH",
+  "name": "Resurrection Aromatique Hand Wash  500ml",
+  "ribbon": null,
+  "messaging": {
+    "marketing": [],
+    "operational": []
+  },
+  "color_name_brand": "N/A",
+  "short_description": "Aesop's Resurrection Aromatique Hand Wash 500ml is a gentle formulation containing oils of Orange, Rosemary and Lavender to effectively cleanse the hands without drying them out.<br><br>- Aroma: Citrus,woody, herbaceous&nbsp;<br>- Key Ingredients: Mandarin Rind, Rosemary Leaf, Cedar Atlas<br>- Dispense into damp hands, lather, then rinse thoroughly.\n<br>- Manufactured in Australia<br><br>Ingredients:<br>Water (Aqua), Sodium Laureth Sulfate, Cocamidopropyl Hydroxysultaine, PEG-40 Hydrogenated Castor Oil, Glycerin, Phenoxyethanol, Citrus Nobilis (Mandarin Orange) Peel Oil, Sodium Chloride, Cedrus Atlantica (Cedarwood) Bark Oil, Lavandula Angustifolia (Lavender) Oil, Citrus Aurantium Dulcis (Orange) Oil, Sodium Dehydroacetate, Rosmarinus Officinalis (Rosemary) Leaf Oil, Citric Acid, Limonene, Linalool&nbsp;&nbsp;<br><br>All Aesop products are vegan and cruelty-free, and no ingredient utilised in our formulations is tested on animals.\nThis ingredient list is subject to change. Please refer to the product label for the most accurate ingredient list for each individual product purchased prior to use.<br><br>At THE ICONIC we do our best to provide you with accurate information about product ingredients, based on information provided to us by our Suppliers. For the most complete and up-to-date information, please refer to the product packaging.",
+  "shipment_type": "WH",
+  "color_name": "N/A",
+  "color_hex": "#000000",
+  "cart_price_rules": null,
+  "attributes": null,
+  "simples": null,
+  "sustainability": {
+    "title": "This item is part of our Considered Edit",
+    "items": [
+      "Manufactured in Australia",
+      "Manufactured by an animal testing-free certified brand",
+      "Made using vegan materials",
+      "This brand operates as a not for profit enterprise with a social mission or is a certified B Corp"
+    ],
+    "groups": [
+      {
+        "name": "Eco-Production",
+        "description": "Product made in a location, or using a process, that is associated with a lower environmental impact than other alternatives",
+        "icon": "https://s3-ap-southeast-2.amazonaws.com/mediaonsite.theiconic.com.au/sustainability/Attributes-Icons-_Eco.png"
+      },
+      {
+        "name": "Animal Friendly",
+        "description": "Product made using non-animal alternatives or methods that are associated with good animal welfare",
+        "icon": "https://s3-ap-southeast-2.amazonaws.com/mediaonsite.theiconic.com.au/sustainability/Attributes-Icons-_Animal.png"
+      },
+      {
+        "name": "Community Engagement",
+        "description": "Product made by a brand or using a method associated with positive community benefit, including donations",
+        "icon": "https://s3-ap-southeast-2.amazonaws.com/mediaonsite.theiconic.com.au/sustainability/Attributes-Icons-_Community.png"
+      }
+    ]
+  },
+  "link": "resurrection-aromatique-hand-wash-500ml-1152103.html",
+  "activated_at": "2020-09-30 13:35:29",
+  "return_policy_message": {
+    "message": "This product qualifies for 30 day free returns",
+    "bold_substring": "free returns"
+  },
+  "categories_translated": "Beauty|Body|Hands and Feet|Hand Wash and Soap",
+  "category_path": null,
+  "category_ids": null,
+  "related_products": null,
+  "image_products": null,
+  "attribute_set_identifier": "BT",
+  "supplier": "EMEIS COSMETICS PTY LTD",
+  "wannaby_id": null,
+  "citrus_ad_id": null,
+  "associated_skus": "",
+  "size_guide_url": null,
+  "related": {
+    "count": 0,
+    "label": "Scent",
+    "visible": true,
+    "message": null
+  },
+  "variants": {
+    "count": 0,
+    "label": "Scent",
+    "visible": true,
+    "message": null
+  },
+  "campaign_details": null,
+  "_embedded": {
+    "brand": {
+      "id": 2208,
+      "name": "Aesop",
+      "url_key": "aesop",
+      "image_url": null,
+      "banner_url": null,
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/brands/aesop"
+        }
+      }
+    },
+    "gender": {
+      "id": 3,
+      "name": "unisex",
+      "_links": {
+        "self": {
+          "href": "https://eve.theiconic.com.au/catalog/genders/unisex"
+        }
+      }
+    },
+    "shops": [
+      {
+        "is_default": true,
+        "name": "shop",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
+          }
+        }
+      },
+      {
+        "is_default": false,
+        "name": "beautyshop",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/beautyshop"
+          }
+        }
+      }
+    ],
+    "images": [
+      {
+        "url": "http://static.theiconic.com.au/p/aesop-2860-3012511-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/aesop-2860-3012511-1.jpg"
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://eve.theiconic.com.au/catalog/products/AE208BT38HVH"
+    }
+  },
+  "video_previews": []
+},
+{
+  "video_count": 0,
+  "price": 240,
+  "markdown_price": 240,
+  "special_price": 0,
+  "returnable": true,
+  "final_sale": false,
+  "stock_update": null,
+  "final_price": 240,
+  "sku": "AS119SF18BQZ",
+  "name": "GEL-Nimbus 23 - Women's",
+  "ribbon": "new",
+  "messaging": {
+    "marketing": [
+      {
+        "type": "new",
+        "short": "New",
+        "medium": "New arrival",
+        "long": "New arrival",
+        "color": "#42ABC8",
+        "url": null
+      }
+    ],
+    "operational": []
+  },
+  "color_name_brand": "Black & Black",
+  "short_description": "<b>PLEASE NOTE - THE ICONIC IS UNABLE TO SHIP THIS PRODUCT TO NEW ZEALAND</b><br><br>Specially designed for long distance runners, the <b>GEL-Nimbus 23</b> by <b>ASICS</b> is constructed with comfort and breathability in mind.&nbsp;<br><br>- Engineered mesh upper<br>\n- GEL™ technology for cushioning<br>\n- TRUSSTIC™ technology for stability<br>\n- FLYTEFOAM™ Propel cushioning<br>\n- ORTHOLITE™ X-55 sock liner for comfort ",
+  "shipment_type": "WH",
+  "color_name": "Black & Black",
+  "color_hex": "#000000",
+  "cart_price_rules": null,
+  "attributes": null,
+  "simples": null,
+  "sustainability": null,
+  "link": "gel-nimbus-23-women-s-1194485.html",
+  "activated_at": "2021-03-11 16:09:49",
   "return_policy_message": {
     "message": "This product qualifies for 30 day free returns",
     "bold_substring": "free returns"
@@ -168,16 +571,16 @@
   "supplier": "Asics Oceania Pty Ltd",
   "wannaby_id": null,
   "citrus_ad_id": null,
-  "associated_skus": "AS119SF44EPB|AS119AC45XSK|AS119SA28NMT|AS119SA56ZWL",
+  "associated_skus": "",
   "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SF&brand=ASICS&gender=female",
   "related": {
-    "count": 2,
+    "count": 3,
     "label": "Colour",
     "visible": true,
     "message": "More colours available"
   },
   "variants": {
-    "count": 2,
+    "count": 3,
     "label": "Colour",
     "visible": true,
     "message": "More colours available"
@@ -227,14 +630,14 @@
     ],
     "images": [
       {
-        "url": "http://static.theiconic.com.au/p/asics-7897-5644911-1.jpg",
-        "thumbnail": "//static.theiconic.com.au/p/asics-7897-5644911-1.jpg"
+        "url": "http://static.theiconic.com.au/p/asics-7843-5844911-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/asics-7843-5844911-1.jpg"
       }
     ]
   },
   "_links": {
     "self": {
-      "href": "https://eve.theiconic.com.au/catalog/products/AS119SF44EPB"
+      "href": "https://eve.theiconic.com.au/catalog/products/AS119SF18BQZ"
     }
   },
   "video_previews": []
@@ -361,15 +764,15 @@
 },
 {
   "video_count": 0,
-  "price": 240,
-  "markdown_price": 240,
+  "price": 149,
+  "markdown_price": 149,
   "special_price": 0,
   "returnable": true,
   "final_sale": false,
   "stock_update": null,
-  "final_price": 240,
-  "sku": "AS119SF18BQZ",
-  "name": "GEL-Nimbus 23 - Women's",
+  "final_price": 149,
+  "sku": "PE745AA45KBQ",
+  "name": "Opponent Sweat",
   "ribbon": "new",
   "messaging": {
     "marketing": [
@@ -384,55 +787,55 @@
     ],
     "operational": []
   },
-  "color_name_brand": "Black & Black",
-  "short_description": "<b>PLEASE NOTE - THE ICONIC IS UNABLE TO SHIP THIS PRODUCT TO NEW ZEALAND</b><br><br>Specially designed for long distance runners, the <b>GEL-Nimbus 23</b> by <b>ASICS</b> is constructed with comfort and breathability in mind.&nbsp;<br><br>- Engineered mesh upper<br>\n- GEL™ technology for cushioning<br>\n- TRUSSTIC™ technology for stability<br>\n- FLYTEFOAM™ Propel cushioning<br>\n- ORTHOLITE™ X-55 sock liner for comfort ",
+  "color_name_brand": "Grey Marle",
+  "short_description": "Australian sportswear label <b>P.E Nation</b> is the epitome of an active-meets-urban lifestyle, with a focus on complementing an active schedule with unsurpassed style. THE ICONIC offers a wide range of <b>P.E Nation</b> sports apparel and accessories to suit every style profile. <br><br>Length: 47cm (size small). Our model is 174.0cm (5’8.5”) tall with a 81.3cm (32”) bust, a 63.5cm (25”) waist and 94.0cm (37”) hips.<br><br>- Organic cotton jersey; natural stretch; fleece-lined; opaque<br>- Ribbed crew neckline and cuffs<br>- Branded jacquard elastic hemline<br>- Colour-blocked design<br>- Cropped",
   "shipment_type": "WH",
-  "color_name": "Black & Black",
-  "color_hex": "#000000",
+  "color_name": "Grey Marle",
+  "color_hex": "#b8b8b8",
   "cart_price_rules": null,
   "attributes": null,
   "simples": null,
   "sustainability": null,
-  "link": "gel-nimbus-23-women-s-1194485.html",
-  "activated_at": "2021-03-11 16:09:49",
+  "link": "opponent-sweat-1202885.html",
+  "activated_at": "2021-03-11 12:17:05",
   "return_policy_message": {
     "message": "This product qualifies for 30 day free returns",
     "bold_substring": "free returns"
   },
-  "categories_translated": "Shoes|Running|Performance Shoes",
+  "categories_translated": "Clothing|Sweats and Hoodies|Crew Necks",
   "category_path": null,
   "category_ids": null,
   "related_products": null,
   "image_products": null,
-  "attribute_set_identifier": "SF",
-  "supplier": "Asics Oceania Pty Ltd",
+  "attribute_set_identifier": "AA",
+  "supplier": "PE Nation Pty Ltd",
   "wannaby_id": null,
   "citrus_ad_id": null,
-  "associated_skus": "",
-  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SF&brand=ASICS&gender=female",
+  "associated_skus": "PE745AA91VMI|PE745AA45KBQ|NE838SF16JOX|PE745AC10NLH|KL890SE09VWG",
+  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=AA&brand=P.E+Nation&gender=female",
   "related": {
-    "count": 3,
+    "count": 0,
     "label": "Colour",
     "visible": true,
-    "message": "More colours available"
+    "message": null
   },
   "variants": {
-    "count": 3,
+    "count": 0,
     "label": "Colour",
     "visible": true,
-    "message": "More colours available"
+    "message": null
   },
   "campaign_details": null,
   "_embedded": {
     "brand": {
-      "id": 2119,
-      "name": "ASICS",
-      "url_key": "asics",
-      "image_url": null,
+      "id": 3745,
+      "name": "P.E Nation",
+      "url_key": "pe-nation",
+      "image_url": "http://static.theiconic.com.au/b/pe-nation.jpg",
       "banner_url": null,
       "_links": {
         "self": {
-          "href": "https://eve.theiconic.com.au/catalog/brands/asics"
+          "href": "https://eve.theiconic.com.au/catalog/brands/pe-nation"
         }
       }
     },
@@ -467,14 +870,14 @@
     ],
     "images": [
       {
-        "url": "http://static.theiconic.com.au/p/asics-7843-5844911-1.jpg",
-        "thumbnail": "//static.theiconic.com.au/p/asics-7843-5844911-1.jpg"
+        "url": "http://static.theiconic.com.au/p/pe-nation-3284-5882021-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/pe-nation-3284-5882021-1.jpg"
       }
     ]
   },
   "_links": {
     "self": {
-      "href": "https://eve.theiconic.com.au/catalog/products/AS119SF18BQZ"
+      "href": "https://eve.theiconic.com.au/catalog/products/PE745AA45KBQ"
     }
   },
   "video_previews": []
@@ -742,15 +1145,15 @@
 },
 {
   "video_count": 0,
-  "price": 99,
-  "markdown_price": 99,
+  "price": 220,
+  "markdown_price": 220,
   "special_price": 0,
   "returnable": true,
   "final_sale": false,
   "stock_update": null,
-  "final_price": 99,
-  "sku": "PE745AA29RXI",
-  "name": "Align Shorts",
+  "final_price": 220,
+  "sku": "AS119SF44EPB",
+  "name": "GT-2000 9 (D Wide) - Women's",
   "ribbon": "new",
   "messaging": {
     "marketing": [
@@ -765,191 +1168,77 @@
     ],
     "operational": []
   },
-  "color_name_brand": "Black",
-  "short_description": "Australian sportswear label <b>P.E Nation</b> is the epitome of an active-meets-urban lifestyle, with a focus on complementing an active schedule with unsurpassed style. THE ICONIC offers a wide range of <b>P.E Nation</b> sports apparel and accessories to suit every style profile. <br><br>Length: 31cm (size small). Our model is 174.0cm (5’8.5”) tall with a 81.3cm (32”) bust, a 63.5cm (25”) waist and 94.0cm (37”) hips.<br><br>- Lightweight ripstop; non-stretch; mesh-lined; opaque<br>- Elasticised waistband with drawcord; internal branded jacquard band<br>- Logo patch and print detail<br>- Side zip venting<br>- Zip pocket to back",
+  "color_name_brand": "Black & Lilac Opal",
+  "short_description": "<strong>PLEASE NOTE - THE ICONIC IS UNABLE TO SHIP THIS PRODUCT TO NEW ZEALAND</strong>\n<br><br>\nThe <strong>ASICS&nbsp;GT-2000 9&nbsp;</strong>sneakers are imbued with the brand's renowned GEL technology for superior foot support.\n<br><br>\n- One-piece performance mesh upper<br>\n- GEL technology cushioning on rearfoot and forefoot for comfort<br>\n- Flytefoam™&nbsp;technology cushioning<br>- Wide fit / D fit",
   "shipment_type": "WH",
-  "color_name": "Black",
-  "color_hex": "#000000",
+  "color_name": "Black & Lilac Opal",
+  "color_hex": "#d1cfd1",
   "cart_price_rules": null,
   "attributes": null,
   "simples": null,
   "sustainability": null,
-  "link": "align-shorts-1202868.html",
-  "activated_at": "2021-03-11 12:14:29",
+  "link": "gt-2000-9-d-wide-women-s-1194465.html",
+  "activated_at": "2021-03-10 12:09:38",
   "return_policy_message": {
     "message": "This product qualifies for 30 day free returns",
     "bold_substring": "free returns"
   },
-  "categories_translated": "Clothing|Shorts",
+  "categories_translated": "Shoes|Running|Performance Shoes",
   "category_path": null,
   "category_ids": null,
   "related_products": null,
   "image_products": null,
-  "attribute_set_identifier": "AA",
-  "supplier": "PE Nation Pty Ltd",
+  "attribute_set_identifier": "SF",
+  "supplier": "Asics Oceania Pty Ltd",
   "wannaby_id": null,
   "citrus_ad_id": null,
-  "associated_skus": "PE745AA29RXI|PE745AA21TFE|NE520SH58NJX|PE745AC76UXR|RE591AC65TZA",
-  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=AA&brand=P.E+Nation&gender=female",
+  "associated_skus": "AS119SF44EPB|AS119AC45XSK|AS119SA28NMT|AS119SA56ZWL",
+  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SF&brand=ASICS&gender=female",
   "related": {
-    "count": 0,
+    "count": 2,
     "label": "Colour",
     "visible": true,
-    "message": null
+    "message": "More colours available"
   },
   "variants": {
-    "count": 0,
+    "count": 2,
     "label": "Colour",
     "visible": true,
-    "message": null
+    "message": "More colours available"
   },
   "campaign_details": null,
   "_embedded": {
     "brand": {
-      "id": 3745,
-      "name": "P.E Nation",
-      "url_key": "pe-nation",
-      "image_url": "http://static.theiconic.com.au/b/pe-nation.jpg",
-      "banner_url": null,
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/brands/pe-nation"
-        }
-      }
-    },
-    "gender": {
-      "id": 2,
-      "name": "female",
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/genders/female"
-        }
-      }
-    },
-    "shops": [
-      {
-        "is_default": false,
-        "name": "sports",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/sports"
-          }
-        }
-      },
-      {
-        "is_default": true,
-        "name": "shop",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
-          }
-        }
-      }
-    ],
-    "images": [
-      {
-        "url": "http://static.theiconic.com.au/p/pe-nation-3243-8682021-1.jpg",
-        "thumbnail": "//static.theiconic.com.au/p/pe-nation-3243-8682021-1.jpg"
-      }
-    ]
-  },
-  "_links": {
-    "self": {
-      "href": "https://eve.theiconic.com.au/catalog/products/PE745AA29RXI"
-    }
-  },
-  "video_previews": []
-},
-{
-  "video_count": 0,
-  "price": 47,
-  "markdown_price": 47,
-  "special_price": 0,
-  "returnable": true,
-  "final_sale": false,
-  "stock_update": null,
-  "final_price": 47,
-  "sku": "UL418BT10SQN",
-  "name": "Queen Screen SPF50+ 50ml",
-  "ribbon": null,
-  "messaging": {
-    "marketing": [],
-    "operational": []
-  },
-  "color_name_brand": "N/A",
-  "short_description": "<b>Ultra Violette's Queen Screen SPF50+ 50ml</b>\n is a luminsing and lightweight serum sunscreen, offering SPF 50+ protection from the whole solar spectrum of environmental damage including UVA + UVB, infrared, blue, visible light, and pollution. The oil-free formula is jam-packed with native antioxidants that’ll melt into your face like a discarded callippo on a hot summer’s day.\n<br><br>\nThe matriarch of the Ultra Violette family smells subtly of roses (heaven!) and co-exists happily with the rest of your skincare (read: no pilling) while providing the perfect base for makeup.\n<br><br>\n-        Suitable for normal, dry and sensitive skin types -  or anyone who wants a glow. Leaves no white cast<br>\n-        Apply 3 full pipettes to skin after moisturiser and before makeup<br>\n-        This product is a skinscreen, i.e. the perfect combination of skincare and sunscreen, purposely designed to work for the good of your skin, both in the short and long term<br>\n-        Free from parabens, oxybenzone, cruelty and any trace of sticky white grease<br>\n-        Australian made, cruelty free and vegan<br>\n-        Measures: 11cm x 5cm x 5cm&nbsp; &nbsp;<br><br>Ingredients: <br>ACTIVES: Ethylhexyl Methoxycinnamate (10%), Ethylhexyl Salicylate (5%), Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine (4%), Methylene Bis-benzotriazolyl Tetramethylbutylphenol (2%)\n\nINACTIVES: Aqua, Cyclopentasiloxane, Cyclohexasiloxane, Isostearyl Neopentanoate, Glycerin, Lauryl PEG/PPG-18/18 Methicone, Silica, Cetyl PEG/PPG-10/1 Dimethicone, Cetyl Dimethicone, Hydroxyacetophenone, Polymethyl Methacrylate, Saccharide Isomerate, Benzyl Alcohol, Phenoxyethanol, Parfum, Mica, Decyl Glucoside, Sodium Laureth Sulfate, Aminomethyl Propanol, Pentylene Glycol, Titanium Dioxide, Terminalia Ferdinandiana Fruit Extract, Propylene Glycol, Xanthan Gum, Citric Acid, Sodium Chloride, Iron Oxide, l-carnosine<br><br>At THE ICONIC we do our best to provide you with accurate information about product ingredients, based on information provided to us by our Suppliers. For the most complete and up-to-date information, please refer to the product packaging.",
-  "shipment_type": "WH",
-  "color_name": "N/A",
-  "color_hex": "#142ed1",
-  "cart_price_rules": null,
-  "attributes": null,
-  "simples": null,
-  "sustainability": {
-    "title": "This item is part of our Considered Edit",
-    "items": [
-      "Manufactured in Australia"
-    ],
-    "groups": [
-      {
-        "name": "Eco-Production",
-        "description": "Product made in a location, or using a process, that is associated with a lower environmental impact than other alternatives",
-        "icon": "https://s3-ap-southeast-2.amazonaws.com/mediaonsite.theiconic.com.au/sustainability/Attributes-Icons-_Eco.png"
-      }
-    ]
-  },
-  "link": "queen-screen-spf50-50ml-1153914.html",
-  "activated_at": "2020-10-09 01:53:13",
-  "return_policy_message": {
-    "message": "This product qualifies for 30 day free returns",
-    "bold_substring": "free returns"
-  },
-  "categories_translated": "Beauty|Skincare|Sun Care|Facial Sunscreen",
-  "category_path": null,
-  "category_ids": null,
-  "related_products": null,
-  "image_products": null,
-  "attribute_set_identifier": "BT",
-  "supplier": "Grace and Fire Pty Ltd",
-  "wannaby_id": null,
-  "citrus_ad_id": null,
-  "associated_skus": "",
-  "size_guide_url": null,
-  "related": {
-    "count": 0,
-    "label": "Colour",
-    "visible": true,
-    "message": null
-  },
-  "variants": {
-    "count": 0,
-    "label": "Colour",
-    "visible": true,
-    "message": null
-  },
-  "campaign_details": null,
-  "_embedded": {
-    "brand": {
-      "id": 5418,
-      "name": "Ultra Violette",
-      "url_key": "ultra-violette",
+      "id": 2119,
+      "name": "ASICS",
+      "url_key": "asics",
       "image_url": null,
       "banner_url": null,
       "_links": {
         "self": {
-          "href": "https://eve.theiconic.com.au/catalog/brands/ultra-violette"
+          "href": "https://eve.theiconic.com.au/catalog/brands/asics"
         }
       }
     },
     "gender": {
-      "id": 3,
-      "name": "unisex",
+      "id": 2,
+      "name": "female",
       "_links": {
         "self": {
-          "href": "https://eve.theiconic.com.au/catalog/genders/unisex"
+          "href": "https://eve.theiconic.com.au/catalog/genders/female"
         }
       }
     },
     "shops": [
+      {
+        "is_default": false,
+        "name": "sports",
+        "_links": {
+          "self": {
+            "href": "https://eve.theiconic.com.au/catalog/shops/sports"
+          }
+        }
+      },
       {
         "is_default": true,
         "name": "shop",
@@ -958,299 +1247,20 @@
             "href": "https://eve.theiconic.com.au/catalog/shops/shop"
           }
         }
-      },
-      {
-        "is_default": false,
-        "name": "beautyshop",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/beautyshop"
-          }
-        }
       }
     ],
     "images": [
       {
-        "url": "http://static.theiconic.com.au/p/ultra-violette-8164-4193511-1.jpg",
-        "thumbnail": "//static.theiconic.com.au/p/ultra-violette-8164-4193511-1.jpg"
+        "url": "http://static.theiconic.com.au/p/asics-7897-5644911-1.jpg",
+        "thumbnail": "//static.theiconic.com.au/p/asics-7897-5644911-1.jpg"
       }
     ]
   },
   "_links": {
     "self": {
-      "href": "https://eve.theiconic.com.au/catalog/products/UL418BT10SQN"
+      "href": "https://eve.theiconic.com.au/catalog/products/AS119SF44EPB"
     }
   },
   "video_previews": []
-},
-{
-  "video_count": 1,
-  "price": 75,
-  "markdown_price": 75,
-  "special_price": 0,
-  "returnable": true,
-  "final_sale": false,
-  "stock_update": null,
-  "final_price": 75,
-  "sku": "NI126SA24NQD",
-  "name": "Epic Luxe Trail Running Shorts",
-  "ribbon": "new",
-  "messaging": {
-    "marketing": [
-      {
-        "type": "new",
-        "short": "New",
-        "medium": "New arrival",
-        "long": "New arrival",
-        "color": "#42ABC8",
-        "url": null
-      }
-    ],
-    "operational": []
-  },
-  "color_name_brand": "Black, Dark Smoke Grey & Reflective Silver",
-  "short_description": "American sportswear giant <b>Nike</b> has established an inimitable reputation for performance and innovation. <br><br>\nLength: 36cm (size small).  Our model is 174.0cm (5’8.5”) tall with a 83.8cm (33”) bust, a 64.8cm (25.5”) waist and 90.2cm (35.5”) hips.\n<br><br>- Lightweight Nike Power performance fabric; moisture-wicking<br>- Three waistband pockets; two thigh slip pockets<br>- Interior taping for secure fit",
-  "shipment_type": "WH",
-  "color_name": "Black, Dark Smoke Grey & Reflective Silver",
-  "color_hex": "#000000",
-  "cart_price_rules": null,
-  "attributes": null,
-  "simples": null,
-  "sustainability": null,
-  "link": "epic-luxe-trail-running-shorts-1108934.html",
-  "activated_at": "2021-03-10 11:04:18",
-  "return_policy_message": {
-    "message": "This product qualifies for 30 day free returns",
-    "bold_substring": "free returns"
-  },
-  "categories_translated": "Clothing|Shorts|Tights|Sports Tights|12 Tights",
-  "category_path": null,
-  "category_ids": null,
-  "related_products": null,
-  "image_products": null,
-  "attribute_set_identifier": "SA",
-  "supplier": "NIKE AUSTRALIA PTY LTD",
-  "wannaby_id": null,
-  "citrus_ad_id": null,
-  "associated_skus": "NI126SA24NQD|NI126SA59HNC|NI126SF92FWL|NI126SE10IMF|NI126SE47TGY",
-  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SA&brand=Nike&gender=female",
-  "related": {
-    "count": 0,
-    "label": "Colour",
-    "visible": true,
-    "message": null
-  },
-  "variants": {
-    "count": 0,
-    "label": "Colour",
-    "visible": true,
-    "message": null
-  },
-  "campaign_details": null,
-  "_embedded": {
-    "brand": {
-      "id": 126,
-      "name": "Nike",
-      "url_key": "nike",
-      "image_url": "http://static.theiconic.com.au/b/nike.jpg",
-      "banner_url": null,
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/brands/nike"
-        }
-      }
-    },
-    "gender": {
-      "id": 2,
-      "name": "female",
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/genders/female"
-        }
-      }
-    },
-    "shops": [
-      {
-        "is_default": false,
-        "name": "sports",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/sports"
-          }
-        }
-      },
-      {
-        "is_default": true,
-        "name": "shop",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
-          }
-        }
-      }
-    ],
-    "images": [
-      {
-        "url": "http://static.theiconic.com.au/p/nike-9019-4398011-1.jpg",
-        "thumbnail": "//static.theiconic.com.au/p/nike-9019-4398011-1.jpg"
-      }
-    ]
-  },
-  "_links": {
-    "self": {
-      "href": "https://eve.theiconic.com.au/catalog/products/NI126SA24NQD"
-    }
-  },
-  "video_previews": [
-    {
-      "url": "https://vod-progressive.akamaized.net/exp=1615451537~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696491%2F2437162911.mp4~hmac=affae9a2948b54e672804a0a6ae2d5c8733c5c2b8121c27736a7cdb953cdd726/vimeo-prod-skyfire-std-us/01/4339/20/521696491/2437162911.mp4",
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/products/NI126SA24NQD/videos"
-        }
-      }
-    }
-  ]
-},
-{
-  "video_count": 1,
-  "price": 119.99,
-  "markdown_price": 119.99,
-  "special_price": 0,
-  "returnable": true,
-  "final_sale": false,
-  "stock_update": null,
-  "final_price": 119.99,
-  "sku": "RU859SA52BIH",
-  "name": "Ab Waisted What WOTS Full-Length Tights",
-  "ribbon": "new",
-  "messaging": {
-    "marketing": [
-      {
-        "type": "new",
-        "short": "New",
-        "medium": "New arrival",
-        "long": "New arrival",
-        "color": "#42ABC8",
-        "url": null
-      }
-    ],
-    "operational": []
-  },
-  "color_name_brand": "Black & Major",
-  "short_description": "Fusing functionality with style, <b>Running Bare</b> is designed for the fit and fun-loving woman. Launched in Sydney in 1983, the brand continues to encourage women to live it, love it and rock it in functionally fashionable workout gear. From bright tights to kaleidoscopic crops, <b>Running Bare</b> enables you to look and feel fantastic during every workout.\n<br><br>\nLength: Inside Leg: 68cm. Rise: 28cm. Leg Opening: 20cm (size AU 8). Our model is 175.3cm (5’9”) tall with a 78.7cm (31”) bust, a 61.0cm (24”) waist and 88.9cm (35”) hips.\n<br><br>\n- Performance fabric; two-way stretch <br>\n- Breathable and moisture-wicking <br>\n- Inseam key pocket inside waistband <br>\n- Manufactured in Australia",
-  "shipment_type": "WH",
-  "color_name": "Black & Major",
-  "color_hex": "#000000",
-  "cart_price_rules": null,
-  "attributes": null,
-  "simples": null,
-  "sustainability": {
-    "title": "This item is part of our Considered Edit",
-    "items": [
-      "Manufactured in Australia"
-    ],
-    "groups": [
-      {
-        "name": "Eco-Production",
-        "description": "Product made in a location, or using a process, that is associated with a lower environmental impact than other alternatives",
-        "icon": "https://s3-ap-southeast-2.amazonaws.com/mediaonsite.theiconic.com.au/sustainability/Attributes-Icons-_Eco.png"
-      }
-    ]
-  },
-  "link": "ab-waisted-what-wots-full-length-tights-1208717.html",
-  "activated_at": "2021-03-10 12:40:35",
-  "return_policy_message": {
-    "message": "This product qualifies for 30 day free returns",
-    "bold_substring": "free returns"
-  },
-  "categories_translated": "Clothing|Tights|Sports Tights|Full Tights",
-  "category_path": null,
-  "category_ids": null,
-  "related_products": null,
-  "image_products": null,
-  "attribute_set_identifier": "SA",
-  "supplier": "Running Bare Australia Pty Ltd",
-  "wannaby_id": null,
-  "citrus_ad_id": null,
-  "associated_skus": "RU859SA52BIH|RU859SA16QCH|NE520SH58NJX|RU859SE16GFJ|RU859SE44TUX",
-  "size_guide_url": "https://www.theiconic.com.au/index/sizeguidemain?for=SA&brand=Running+Bare&gender=female",
-  "related": {
-    "count": 2,
-    "label": "Colour",
-    "visible": true,
-    "message": "More colours available"
-  },
-  "variants": {
-    "count": 2,
-    "label": "Colour",
-    "visible": true,
-    "message": "More colours available"
-  },
-  "campaign_details": null,
-  "_embedded": {
-    "brand": {
-      "id": 859,
-      "name": "Running Bare",
-      "url_key": "running-bare",
-      "image_url": "http://static.theiconic.com.au/b/running-bare.jpg",
-      "banner_url": null,
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/brands/running-bare"
-        }
-      }
-    },
-    "gender": {
-      "id": 2,
-      "name": "female",
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/genders/female"
-        }
-      }
-    },
-    "shops": [
-      {
-        "is_default": false,
-        "name": "sports",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/sports"
-          }
-        }
-      },
-      {
-        "is_default": true,
-        "name": "shop",
-        "_links": {
-          "self": {
-            "href": "https://eve.theiconic.com.au/catalog/shops/shop"
-          }
-        }
-      }
-    ],
-    "images": [
-      {
-        "url": "http://static.theiconic.com.au/p/running-bare-9126-7178021-1.jpg",
-        "thumbnail": "//static.theiconic.com.au/p/running-bare-9126-7178021-1.jpg"
-      }
-    ]
-  },
-  "_links": {
-    "self": {
-      "href": "https://eve.theiconic.com.au/catalog/products/RU859SA52BIH"
-    }
-  },
-  "video_previews": [
-    {
-      "url": "https://vod-progressive.akamaized.net/exp=1615451538~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4339%2F20%2F521696840%2F2437165374.mp4~hmac=82f6d8bd9452e2dfd3a18cc24401a871f627823c23c482c100538d92ef42c146/vimeo-prod-skyfire-std-us/01/4339/20/521696840/2437165374.mp4",
-      "_links": {
-        "self": {
-          "href": "https://eve.theiconic.com.au/catalog/products/RU859SA52BIH/videos"
-        }
-      }
-    }
-  ]
 }
 ]
