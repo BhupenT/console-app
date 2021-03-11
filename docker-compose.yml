@@ -1,0 +1,24 @@
+version: '3.7'
+services:
+  console-app:
+    container_name: console_app
+    image: console_app:${BUILD_TYPE}
+    build:
+      context: ./
+      target: ${BUILD_TARGET}
+      dockerfile: ./Dockerfile
+
+    # volumes:
+    #   - .:/home/node
+    #   - /home/node/node_modules
+    command: npm run start:dev #change this whatever available in package.json to run in run time
+
+    networks:
+      - Console
+    env_file: .env
+
+    ports:
+      - ${CONSOLE_PORT}:${CONSOLE_PORT}
+
+networks:
+  Console:
