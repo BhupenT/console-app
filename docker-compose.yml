@@ -11,7 +11,7 @@ services:
     # volumes:
     #   - .:/code
     #   - /code/node_modules
-    command: npm run start:prod #change this whatever available in package.json to run in run time
+    command: npm run start:dev #change this whatever available in package.json to run in run time
 
     networks:
       - Console
