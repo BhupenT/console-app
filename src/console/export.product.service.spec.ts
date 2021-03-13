@@ -123,16 +123,18 @@ describe('ExportProductService', () => {
       imports: [HttpModule],
     }).compile();
 
-    (service = module.get<ExportProductService>(ExportProductService)),
-      (configSettings = await Config.getConfig('ExportProductService')),
-      service.setConfig(configSettings);
+    service = module.get<ExportProductService>(ExportProductService);
+    configSettings = await Config.getConfig('ExportProductService');
+    configSettings.productCatalogUrl =
+      'https://eve.theiconic.com.au/catalog/products?gender=female&page=1&page_size=4&sort=popularity';
 
-    await service.exportProducts();
-
+    service.setConfig(configSettings); // set config first
     products = await Fetch.fetchProductsInfo(
       configSettings.productCatalogUrl,
       configSettings.targetFields.products,
     );
+
+    await service.exportProducts();
 
     const writeStream = new WriteFileStream(
       'output-write-test.json',
@@ -207,14 +209,6 @@ describe('ExportProductService', () => {
       .pipe(writeTransformStream);
   });
 
-  afterAll(async () => {
-    (transformTestFile = await readTestFile(
-      `output-transform-write-test.json`,
-    )),
-      (writeTestFile = await readTestFile(`output-write-test.json`)),
-      (exportTestFile = await readTestFile(`out.json`));
-  });
-
   it('should be defined', () => {
     expect(service).toBeDefined();
   });
@@ -230,15 +224,18 @@ describe('ExportProductService', () => {
   });
 
   it('should write in a json file', async () => {
+    writeTestFile = await readTestFile(`output-write-test.json`);
     expect(writeTestFile).toMatchSnapshot();
   });
 
   it('should transform and then write in a json file', async () => {
-    expect(transformTestFile).toMatchSnapshot();
+    transformTestFile = await readTestFile(`output-transform-write-test.json`);
+    await expect(transformTestFile).toMatchSnapshot();
   });
 
   it('should get the product from the api, transform and write to a json file output.json', async () => {
     // this is may not be correct when the api gives different result please update the snap shot
-    expect(JSON.stringify(exportTestFile)).toMatchSnapshot();
+    exportTestFile = JSON.stringify(await readTestFile(`out.json`));
+    await expect(exportTestFile).toMatchSnapshot();
   });
 });
